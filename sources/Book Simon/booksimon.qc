@@ -35,6 +35,7 @@ $illumposition 0 0 0 "Bip01 Pelvis"
 $attachment "pistol_muzzle" "Bip01 R Hand" 1 3 9
 $attachment "shotgun_muzzle" "Bip01 R Hand" 3 8 30
 $attachment "tmp_muzzle" "Bip01 R Hand" 0.5 3 11
+$attachment "m16_muzzle" "Bip01 R Hand" 3.3 9 35 rotate 0 0 0
 $attachment "flare" "Bip01 L Hand" 1 -4 3
 $attachment "eyes" "Bip01 Head" 0.00 -5.00 1.50 rotate 0 -90 0
 
@@ -70,7 +71,7 @@ $hbox 5 "Bip01 R Finger1" -1.01 -1.75 0 0.7 2.07 1.439113
 $hbox 5 "Bip01 R Finger11" -0.64 -2.02 0 0.88 1.74 1.81
 $hbox 5 "Bip01 R Finger12" -0.69 -1.85 0 0.52 1.75 1.91
 $hbox 1 "Bip01 Head" -3.85 -6.73 -1.12 3.85 4.04 10.35
-$hbox 0 "a_mun" -2.01 -1.86 0 2.14 0.36 4.44
+$hbox 1 "a_mun" -2.01 -1.86 0 2.14 0.36 4.44
 
 $Animation aimneutral "aimcenter.smd" frames 0 0
 $Animation aimleft "aimleft.smd" subtract "aimneutral" 0 frames 0 0

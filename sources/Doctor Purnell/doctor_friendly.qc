@@ -2,7 +2,7 @@
 
 $modelname "doctor_friendly.mdl"
 
-$model "body" "doctor2_friendly.smd"
+$model "body" "doctor2_friendly"
 
 $surfaceprop "flesh"
 

@@ -12,7 +12,7 @@ $cdmaterials "models\vj_cofr\cof\faceless\"
 
 $illumposition 0 0 0 "Bip01 Pelvis"
 
-$attachment "eyes" "Bip01 Head" 1.00 -8.00 0.00 rotate 0 -90 0
+$attachment "eyes" "Bip01 Head" 1.00 -8.00 0.00 rotate 30 -90 0
 
 $eyeposition 0 0 55
 

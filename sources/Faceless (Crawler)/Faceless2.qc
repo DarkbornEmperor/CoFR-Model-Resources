@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "faceless2.mdl"
-$modelname "Faceless2.mdl"
+$modelname "faceless2.mdl"
 
 //$origin 0 -10 0
 

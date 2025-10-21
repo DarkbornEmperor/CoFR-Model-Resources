@@ -10,6 +10,8 @@ $surfaceprop "flesh"
 
 $contents "solid"
 
+$mostlyopaque
+
 $cdmaterials "models\vj_cofr\cof\sicksimon\"
 
 $illumposition 0 0 0 "Bip01 Pelvis"
@@ -104,6 +106,7 @@ $sequence "bossmove1" {
 }
 $sequence "bossmove2" {
 	"sicksimon_anims\bossmove2"
+	ACT_RANGE_ATTACK1 1
 	{ event 1100 45 "range_prepare" }
 	{ event 1100 107 "range" }
 	fps 30
