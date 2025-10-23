@@ -3,7 +3,9 @@
 // Stored modelname (without quotes): "face_new.mdl"
 $modelname "face.mdl"
 
-$model "body" "ref"
+$model "body" "agrunt_blue_bare"
+$model "body" "agrunt_blue_body"
+$model "body" "agrunt_blue_gun"
 
 $surfaceprop "flesh"
 
@@ -11,12 +13,14 @@ $contents "solid"
 
 $mostlyopaque
 
-$cdmaterials "models\vj_cofr\aom\face\"
+$cdmaterials "models\vj_cofr\aom\face\classic\"
+
+$eyeposition 0 0 75
 
 $illumposition 0 0 0 "Bip01 Pelvis"
 
 $Attachment "hornet" "Bip01 R Hand" 0 0 0 rotate 0 0 0
-$attachment "eyes" "Bip01 Head" 13.00 5.00 -0.50 rotate 0 75 90
+$attachment "eyes" "Bip01 Head" 7.00 12.00 -0.50 rotate -0 75 90
 
 $cbox 0 0 0 0 0 0
 
@@ -51,7 +55,7 @@ $Animation aimup "aimup.smd" subtract "aimneutral" 0 frames 0 0
 $Animation aimdown "aimdown.smd" subtract "aimneutral" 0 frames 0 0
 
 $sequence "ref" {
-	"ref"
+	"agrunt_blue_body"
 	ACT_INVALID 1
 	loop
 }
