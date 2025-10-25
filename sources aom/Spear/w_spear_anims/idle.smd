@@ -1,0 +1,8 @@
+version 1
+nodes
+  0 "DEagle2" -1
+end
+skeleton
+  time 0
+    0 0.155979 -0.155056 0.091237 0.116992 0.013085 -1.269040
+end
