@@ -13,8 +13,8 @@ $cdmaterials "models\vj_cofr\cof\weapons\m76\"
 
 $illumposition 0 0 0 "joint1"
 
-$attachment "muzzle" "joint1" 2.4 0.6 -6.6 rotate 90 0 0
-$attachment "shell" "joint1" 3 0 2 rotate 0 -90 0
+$attachment "muzzle" "joint1" 2.40 0.55 -6.60 rotate 90 -0 0
+$attachment "shell" "joint1" 2.60 -0.00 0.00 rotate -0 -90 -90
 
 $cbox 0 0 0 0 0 0
 

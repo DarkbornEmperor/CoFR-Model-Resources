@@ -12,8 +12,8 @@ $cdmaterials "models\vj_cofr\cof\weapons\mp5\"
 
 $illumposition 0 0 0 "Line02"
 
-$attachment "muzzle" "Line02" -11.5 4.7 0.9 rotate 0 -180 -180
-$attachment "shell" "Line02" 5 6 0 rotate 90 90 0
+$attachment "muzzle" "Line02" -11.50 4.70 0.90 rotate -0 180 90
+$attachment "shell" "Line02" 5.00 6.00 0.00 rotate 90 90 0
 
 $cbox 0 0 0 0 0 0
 

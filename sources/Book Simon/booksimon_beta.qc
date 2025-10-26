@@ -76,11 +76,19 @@ $Animation aimneutral "aimcenter.smd" frames 0 0
 $Animation aimleft "aimleft.smd" subtract "aimneutral" 0 frames 0 0
 $Animation aimcenter "aimcenter.smd" subtract "aimneutral" 0 frames 0 0
 $Animation aimright "aimright.smd" subtract "aimneutral" 0 frames 0 0
+$Animation feetfix "feet_fix.smd" subtract "aimneutral" 0 frames 0 0
 
 $sequence "ref" {
 	"booksimon_simon_body_beta"
 	ACT_INVALID 1
 	loop
+}
+
+$Sequence "feet_fix" {
+    "feetfix"
+    delta
+    blendcenter aimcenter
+    autoplay
 }
 
 $Sequence "aim_yaw" {

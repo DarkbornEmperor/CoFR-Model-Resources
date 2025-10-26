@@ -12,7 +12,7 @@ $cdmaterials "models\vj_cofr\cof\weapons\revolver\"
 
 $illumposition 0 0 0 "joint1"
 
-$attachment "muzzle" "joint1" 1.25 0.75 4.2 rotate -90 0 0
+$attachment "muzzle" "joint1" 1.25 0.75 4.20 rotate -90 -180 0
 
 $cbox 0 0 0 0 0 0
 

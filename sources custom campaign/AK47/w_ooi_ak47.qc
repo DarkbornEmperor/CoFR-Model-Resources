@@ -13,8 +13,8 @@ $cdmaterials "models\vj_cofr\custom\weapons\ak47\"
 
 $illumposition 0 0 0 "joint1"
 
-$attachment "muzzle" "joint1" -20 1.3 -0.7 rotate 0 180 180
-$attachment "shell" "joint1" -1 0 0 rotate 0 -90 0
+$attachment "muzzle" "joint1" -20.00 1.30 -0.70 rotate -0 180 180
+$attachment "shell" "joint1" -1.00 0.00 0.20 rotate -0 -90 180
 
 $cbox 0 0 0 0 0 0
 

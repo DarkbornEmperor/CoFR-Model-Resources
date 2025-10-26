@@ -13,8 +13,8 @@ $cdmaterials "models\vj_cofr\cof\weapons\famas\"
 
 $illumposition 0 0 0 "p_famas"
 
-$attachment "muzzle" "p_famas" -26 0.5 5.6 rotate 0 -180 180
-$attachment "shell" "p_famas" 8 -1 5 rotate 0 -90 0
+$attachment "muzzle" "p_famas" -26.00 0.60 5.60 rotate 0 180 0
+$attachment "shell" "p_famas" -8.00 1.20 7.20 rotate -0 90 0
 
 $cbox 0 0 0 0 0 0
 

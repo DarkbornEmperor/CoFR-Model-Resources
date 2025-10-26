@@ -12,8 +12,8 @@ $cdmaterials "models\vj_cofr\cof\weapons\tmp\"
 
 $illumposition 0 0 0 "root"
 
-$attachment "muzzle" "root" 0.2 -8.6 0.8 rotate 0 -90 0
-$attachment "shell" "root" 1 0 2 rotate -90 0 0
+$attachment "muzzle" "root" 0.25 -8.60 0.90 rotate -0 -90 -90
+$attachment "shell" "root" 0.60 0.10 1.50 rotate -90 180 0
 
 $cbox 0 0 0 0 0 0
 

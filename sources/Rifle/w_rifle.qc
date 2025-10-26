@@ -12,8 +12,8 @@ $cdmaterials "models\vj_cofr\cof\weapons\rifle\"
 
 $illumposition 0 0 0 "joint1"
 
-$attachment "muzzle" "joint1" 0.25 0.85 -21 rotate 90 0 0
-$attachment "shell" "joint1" -1.5 1.5 6 rotate 0 90 180
+$attachment "muzzle" "joint1" 0.28 0.87 -21.00 rotate 90 -180 0
+$attachment "shell" "joint1" -1.50 1.50 4.00 rotate -0 90 -90
 
 $cbox 0 0 0 0 0 0
 
