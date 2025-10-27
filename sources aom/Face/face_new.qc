@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "face_new.mdl"
+$modelname "face.mdl"
 
 $model "body" "ref"
 

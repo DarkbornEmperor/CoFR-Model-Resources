@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "C:\Documents and Settings\Andreas\Desktop\gruntammo\hornet.mdl"
-$modelname "hornet.mdl"
+$modelname "eyeball.mdl"
 
 $model "studio" "lolboll"
 

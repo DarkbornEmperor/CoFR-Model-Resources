@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "cross.mdl"
+$modelname "assistor_cross.mdl"
 
 $bodygroup "body"
 {

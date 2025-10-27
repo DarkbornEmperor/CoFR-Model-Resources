@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "w_uzi.mdl"
-$modelname "w_dcuzi.mdl"
+$modelname "w_uzi.mdl"
 
 $model "studio" "world_mac10"
 

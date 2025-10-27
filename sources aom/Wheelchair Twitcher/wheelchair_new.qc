@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "wheelchair_new.mdl"
+$modelname "wheelchair_twitcher.mdl"
 
 $model "body" "bodybag_monster"
 

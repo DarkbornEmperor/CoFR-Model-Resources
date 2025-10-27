@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "twister.mdl"
+$modelname "faceless_twister.mdl"
 
 $model "body" "ref"
 

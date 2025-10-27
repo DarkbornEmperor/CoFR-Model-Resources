@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "chainsawguy.mdl"
+$modelname "sawer.mdl"
 
 $model "body" "ref"
 $model "body" "ref2"

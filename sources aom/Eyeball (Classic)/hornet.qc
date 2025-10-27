@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "valve/models/hornet.mdl"
-$modelname "hornet.mdl"
+$modelname "eyeball.mdl"
 
 $model "studio" "HG_BULLET_Template_Pose1"
 

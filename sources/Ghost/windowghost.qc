@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "C:\Documents and Settings\Andreas\Desktop\windowghost\windowghos"
-$modelname "windowghost.mdl"
+$modelname "ghost.mdl"
 
 $origin 0 0 -5
 

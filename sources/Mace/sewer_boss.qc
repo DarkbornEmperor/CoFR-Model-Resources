@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "C:\Documents and Settings\Andreas\Desktop\sewer_boss\sewer_boss."
-$modelname "sewer_boss.mdl"
+$modelname "mace.mdl"
 
 $bodygroup "body"
 {

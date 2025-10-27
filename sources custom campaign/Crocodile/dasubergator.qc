@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "dasubergator.mdl"
+$modelname "crocodile.mdl"
 
 $model "studio" "base"
 

@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "C:\Documents and Settings\Andreas\Desktop\tenslower\tenslower.md"
-$modelname "tenslower.mdl"
+$modelname "slowerten.mdl"
 
 $bodygroup "body"
 {

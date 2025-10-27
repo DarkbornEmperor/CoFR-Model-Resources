@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "w_mp5k.mdl"
-$modelname "w_dcmp5k.mdl"
+$modelname "w_mp5k.mdl"
 
 $model "studio" "world_ump45"
 

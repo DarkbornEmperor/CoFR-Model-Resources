@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "w_crowbar.mdl"
-$modelname "w_clknife.mdl"
+$modelname "w_knife.mdl"
 
 $model "studio" "crowbar"
 

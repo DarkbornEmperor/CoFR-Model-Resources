@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "baby.mdl"
-$modelname "child_swimmer1.mdl"
+$modelname "child_ooi1.mdl"
 
 $bodygroup "body"
 {

@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "david_monster.mdl"
+$modelname "addiction.mdl"
 
 $bodygroup "david"
 {

@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "question.mdl"
+$modelname "assistor_question.mdl"
 
 $bodygroup "body"
 {

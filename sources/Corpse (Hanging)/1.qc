@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "C:\Documents and Settings\Andreas\Desktop\nightmare\1\1.mdl"
-$modelname "1.mdl"
+$modelname "corpse_hanging.mdl"
 
 $origin 0 0 -5
 

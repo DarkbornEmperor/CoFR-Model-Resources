@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "C:\Documents and Settings\Andreas\Desktop\knife\w_kitchenknife.m"
-$modelname "w_dcknife.mdl"
+$modelname "w_knife.mdl"
 
 $model "studio" "w_knife"
 

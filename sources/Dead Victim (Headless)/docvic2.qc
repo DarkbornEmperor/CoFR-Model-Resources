@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "C:\Documents and Settings\Andreas\Desktop\docvic\docvic.mdl"
-$modelname "docvic2.mdl"
+$modelname "deadvictim_headless.mdl"
 
 $origin -49 82 -33
 

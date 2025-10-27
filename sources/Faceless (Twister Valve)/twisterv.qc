@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "twisterv.mdl"
+$modelname "faceless_twister_valve.mdl"
 
 $bodygroup "body"
 {

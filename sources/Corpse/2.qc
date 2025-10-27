@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "C:\Documents and Settings\Andreas\Desktop\nightmare\2\2.mdl"
-$modelname "2.mdl"
+$modelname "corpse.mdl"
 
 $bodygroup "body"
 {

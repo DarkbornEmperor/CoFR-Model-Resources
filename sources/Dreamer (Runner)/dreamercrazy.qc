@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "runningcrazy.mdl"
-$modelname "dreamercrazy.mdl"
+$modelname "dreamerrunner.mdl"
 
 $model "body" "dreamer"
 

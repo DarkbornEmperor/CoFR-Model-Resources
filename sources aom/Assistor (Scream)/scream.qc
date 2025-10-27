@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "scream.mdl"
+$modelname "assistor_scream.mdl"
 
 $bodygroup "body"
 {

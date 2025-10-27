@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "C:\Documents and Settings\Andreas\Desktop\w_models\taurus\w_taur"
-$modelname "w_m76.mdl"
+$modelname "w_pt92.mdl"
 
 $model "body" "taurus"
 

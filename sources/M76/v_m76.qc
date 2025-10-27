@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "S:\half-life\CryOfFear\models\WIP\M76\v_m76.mdl"
-$modelname "v_m76.mdl"
+$modelname "w_m76.mdl"
 
 $origin 0 0 -10
 

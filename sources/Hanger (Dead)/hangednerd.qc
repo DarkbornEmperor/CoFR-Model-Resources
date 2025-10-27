@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "hangednerd.mdl"
+$modelname "hanger_dead.mdl"
 
 $model "body" "ref"
 

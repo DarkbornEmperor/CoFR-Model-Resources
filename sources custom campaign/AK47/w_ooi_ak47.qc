@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "C:\Users\Joe\Desktop\New folder (2)\w_ooi_ak47.mdl"
-$modelname "w_ooi_ak47.mdl"
+$modelname "w_ak47.mdl"
 
 $model "studio" "m16_world"
 

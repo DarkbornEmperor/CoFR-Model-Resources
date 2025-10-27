@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "C:\Documents and Settings\Andreas\Desktop\tenslower2\tenslower2."
-$modelname "tenslower2.mdl"
+$modelname "slowerten2.mdl"
 
 $model "body" "refslower"
 

@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "gmgeneral_around.mdl"
-$modelname "w_dcl85a1.mdl"
+$modelname "w_l85a1.mdl"
 
 $model "studio" "l85_1"
 $model "studio" "l85_2"

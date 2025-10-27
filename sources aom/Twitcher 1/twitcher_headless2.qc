@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "C:\Documents and Settings\Andreas\Desktop\Zombie1\zombie.mdl"
-$modelname "twitcher_headless2.mdl"
+$modelname "twitcher1_headless2.mdl"
 
 $model "body" "headless2"
 

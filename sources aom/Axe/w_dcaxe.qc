@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "C:\Documents and Settings\Andreas\Desktop\axe\w_axe.mdl"
-$modelname "w_dcaxe.mdl"
+$modelname "w_axe.mdl"
 
 $model "studio" "w_hatchet_ref"
 

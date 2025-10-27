@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "runningcrazy.mdl"
+$modelname "crazyrunner.mdl"
 
 $model "body" "runningcrazy"
 

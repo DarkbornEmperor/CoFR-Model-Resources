@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "faceless3.mdl"
+$modelname "faceless_faced.mdl"
 
 $model "body" "faceless3"
 

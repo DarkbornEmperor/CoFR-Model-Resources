@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "C:\Documents and Settings\Andreas\Desktop\hammeranimtest\w_hamme"
-$modelname "w_dchammer.mdl"
+$modelname "w_hammer.mdl"
 
 $model "studio" "w_hatchet_ref"
 

@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "booksimon_m.mdl"
+$modelname "booksimon_mh.mdl"
 
 $model "body" "booksimon_m_ref"
 

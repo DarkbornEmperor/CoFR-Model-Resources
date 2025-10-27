@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "C:\Documents and Settings\Andreas\Desktop\dsasad\w_deagle.mdl"
-$modelname "w_dcdeagle.mdl"
+$modelname "w_deagle.mdl"
 
 $model "studio" "w_de"
 
