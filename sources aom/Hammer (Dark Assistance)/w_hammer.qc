@@ -8,7 +8,7 @@ $surfaceprop "weapon"
 
 $contents "solid"
 
-$cdmaterials "models\vj_cofr\aom\weapons\hammer\"
+$cdmaterials "models\vj_cofr\aom\weapons\da\hammer\"
 
 $illumposition 0 0 0 "box01"
 
