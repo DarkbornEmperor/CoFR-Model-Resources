@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "C:\Valve\Steam\SteamApps\rumpel4550\half-life\AoMDC\models\sick\"
-$modelname "corpse.mdl"
+$modelname "sickcorpse.mdl"
 
 $model "body" "reference"
 
