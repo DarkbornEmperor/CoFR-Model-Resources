@@ -110,9 +110,8 @@ $sequence "flinch_sm" {
 $sequence "attack1" {
 	"devourer_anims\attack1"
 	ACT_MELEE_ATTACK1 1
-	{ event 1100 7 "attack" }
+	{ event 1100 7 "melee" }
 	fps 30
-	loop
 }
 $sequence "chewcycle" {
 	"devourer_anims\chewcycle"
