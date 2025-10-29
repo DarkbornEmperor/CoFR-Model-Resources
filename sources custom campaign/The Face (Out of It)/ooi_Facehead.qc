@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "C:\Documents and Settings\Andreas\Desktop\Facehead\Facehead.mdl"
-$modelname "ooi_facehead.mdl"
+$modelname "facehead_ooi.mdl"
 
 $origin 0 0 -40
 

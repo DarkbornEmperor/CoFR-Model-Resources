@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "psycho.mdl"
+$modelname "psycho_le.mdl"
 
 $model "body" "ref"
 

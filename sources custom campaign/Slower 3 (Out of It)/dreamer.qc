@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "dreamer.mdl"
+$modelname "slower3_ooi.mdl"
 
 $model "body" "slower"
 

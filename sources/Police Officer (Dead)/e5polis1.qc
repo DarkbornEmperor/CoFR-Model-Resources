@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "e5polis1.mdl"
+$modelname "police_dead.mdl"
 
 $bodygroup "nerds"
 {

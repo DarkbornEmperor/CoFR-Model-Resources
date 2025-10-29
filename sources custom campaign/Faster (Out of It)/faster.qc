@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "C:\Users\Joe\Desktop\New folder\faster.mdl"
-$modelname "faster.mdl"
+$modelname "faster_ooi.mdl"
 
 $model "body" "faster"
 

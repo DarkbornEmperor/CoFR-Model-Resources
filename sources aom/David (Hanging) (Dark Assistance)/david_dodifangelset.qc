@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "sick/david_dodifangelset.mdl"
-$modelname "david_hanging_da.mdl"
+$modelname "david_hanging.mdl"
 
 $model "Studio" "DavidDead_Ref"
 

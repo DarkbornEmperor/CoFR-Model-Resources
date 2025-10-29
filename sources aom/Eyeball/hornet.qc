@@ -24,3 +24,12 @@ $sequence "idle" {
 	fps 30
 	loop
 }
+
+$collisionmodel "lolboll"
+{
+	$mass 1
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone ""
+}

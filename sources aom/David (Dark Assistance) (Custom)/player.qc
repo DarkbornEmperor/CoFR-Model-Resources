@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "david_da_custom.mdl"
+$modelname "david_custom.mdl"
 
 $model "Studio" "David_Ref"
 

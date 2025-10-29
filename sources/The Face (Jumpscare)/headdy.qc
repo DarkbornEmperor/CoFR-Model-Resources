@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "C:\Documents and Settings\Andreas\Desktop\headdy\headdy.mdl"
-$modelname "headdy.mdl"
+$modelname "facehead_jumpscare.mdl"
 
 $origin 0 0 -52
 

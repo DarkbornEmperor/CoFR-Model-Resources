@@ -12,6 +12,8 @@ $cdmaterials "models\vj_cofr\cof\doctor\"
 
 $illumposition 0 0 0 "Bip01 Pelvis"
 
+$attachment "eyes" "Bip01 Head" 0.00 -5.00 3.00 rotate 0 -90 -0
+
 $cbox 0 0 0 0 0 0
 
 $bbox -13 -13 0 13 13 72
@@ -46,6 +48,13 @@ $hbox 5 "Bip01 R Finger1" -0.7 -1.67 -0.35 1.04 2.02 1.39118
 $hbox 5 "Bip01 R Finger11" -0.89 -1.83 -0.62 0.81 1.89 1.539504
 $hbox 5 "Bip01 R Finger12" -1.31 -1.88 -0.75 1.88 1.78 1.13
 $hbox 1 "Bip01 Head" -3.99 -10.51 -6.73 3.91 2.77 9.02
+
+$Animation aimneutral "aimcenter.smd" frames 0 0
+$Animation aimleft "aimleft.smd" subtract "aimneutral" 0 frames 0 0
+$Animation aimcenter "aimcenter.smd" subtract "aimneutral" 0 frames 0 0
+$Animation aimright "aimright.smd" subtract "aimneutral" 0 frames 0 0
+$Animation aimup "aimup.smd" subtract "aimneutral" 0 frames 0 0
+$Animation aimdown "aimdown.smd" subtract "aimneutral" 0 frames 0 0
 
 $weightlist "weights_aim" {
 	 "Bip01" 1
@@ -86,6 +95,28 @@ $sequence "ref" {
 	"doctor2"
 	ACT_INVALID 1
 	loop
+}
+
+$Sequence "aim_pitch" {
+    "aimup"
+    "aimcenter"
+    "aimdown"
+    delta
+    blendwidth 3
+    blendcenter aimcenter
+    blend "aim_pitch" -30 30
+    autoplay
+}
+
+$Sequence "aim_yaw" {
+    "aimright"
+    "aimcenter"
+    "aimleft"
+    delta
+    blendwidth 3
+    blendcenter aimcenter
+    blend "aim_yaw" -50 50
+    autoplay
 }
 
 $sequence "aim" {

@@ -76,6 +76,8 @@ $Animation aimneutral "aimcenter.smd" frames 0 0
 $Animation aimleft "aimleft.smd" subtract "aimneutral" 0 frames 0 0
 $Animation aimcenter "aimcenter.smd" subtract "aimneutral" 0 frames 0 0
 $Animation aimright "aimright.smd" subtract "aimneutral" 0 frames 0 0
+$Animation aimup "aimup.smd" subtract "aimneutral" 0 frames 0 0
+$Animation aimdown "aimdown.smd" subtract "aimneutral" 0 frames 0 0
 $Animation feetfix "feet_fix.smd" subtract "aimneutral" 0 frames 0 0
 
 $sequence "ref" {
@@ -88,6 +90,17 @@ $Sequence "feet_fix" {
     "feetfix"
     delta
     blendcenter aimcenter
+    autoplay
+}
+
+$Sequence "aim_pitch" {
+    "aimup"
+    "aimcenter"
+    "aimdown"
+    delta
+    blendwidth 3
+    blendcenter aimcenter
+    blend "aim_pitch" -30 30
     autoplay
 }
 
