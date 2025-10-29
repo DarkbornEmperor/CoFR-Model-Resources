@@ -15,7 +15,7 @@ $illumposition 0 0 0 "joint2"
 
 $eyeposition 0 0 50
 
-$attachment "range" "joint11" 0 0 0
+$attachment "mouth" "joint11" 0 0 0
 $attachment "eyes" "joint11" 0.00 2.00 7.00 rotate -90 90 0
 
 $cbox 0 0 0 0 0 0
