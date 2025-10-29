@@ -12,6 +12,8 @@ $cdmaterials "models\vj_cofr\custom\robert\"
 
 $illumposition 0 0 0 "Bip01 Pelvis"
 
+$attachment "eyes" "Bip01 Head" 0.00 -5.00 3.00 rotate 0 -90 -0
+
 $cbox 0 0 0 0 0 0
 
 $bbox -13 -13 0 13 13 72

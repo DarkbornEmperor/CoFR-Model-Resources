@@ -16,6 +16,8 @@ $cdmaterials "models\vj_cofr\aom\player_da\two\"
 
 $illumposition 0 0 0 "Bip01 Pelvis"
 
+$attachment "eyes" "Bip01 Neck" 4.00 0.00 0.00 rotate -0 65 90
+
 $texturegroup "skinfamilies"
 {
 	{ "black_beam.bmp"      }

@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "zombie.mdl"
+$modelname "skeleton.mdl"
 
 $model "zombie" "SKELETON_Template_Biped1"
 $model "zombie" "SKELETON_Template_Biped2"

@@ -184,11 +184,9 @@ $sequence "horjavel" {
 }
 $sequence "appear" {
 	"sewmo_anims\appear"
-	ACT_SIGNAL1 1
 	fps 35
 }
 $sequence "appearidle" {
 	"sewmo_anims\appearidle"
-	ACT_IDLE_STEALTH 1
 	fps 20
 }
