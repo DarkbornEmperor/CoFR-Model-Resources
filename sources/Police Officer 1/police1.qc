@@ -12,8 +12,6 @@ $surfaceprop "flesh"
 
 $contents "solid"
 
-$mostlyopaque
-
 $cdmaterials "models\vj_cofr\cof\police1\"
 
 $illumposition 0 0 0 "Bip01 Pelvis"

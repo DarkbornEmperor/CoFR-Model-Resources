@@ -16,8 +16,6 @@ $surfaceprop "flesh"
 
 $contents "solid"
 
-$mostlyopaque
-
 $cdmaterials "models\vj_cofr\custom\genome_soldier\"
 
 $illumposition 0 0 0 "Bip01 Pelvis"

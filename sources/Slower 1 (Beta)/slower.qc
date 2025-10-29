@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "slower.mdl"
+$modelname "slower1_beta.mdl"
 
 $bodygroup "body"
 {
@@ -15,8 +15,6 @@ $bodygroup "body"
 $surfaceprop "flesh"
 
 $contents "solid"
-
-$mostlyopaque
 
 $cdmaterials "models\vj_cofr\cof\slower1\" "models\vj_cofr\cof\croucher\"
 

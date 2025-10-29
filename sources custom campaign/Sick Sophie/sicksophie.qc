@@ -9,8 +9,6 @@ $surfaceprop "flesh"
 
 $contents "solid"
 
-$mostlyopaque
-
 $cdmaterials "models\vj_cofr\custom\sicksophie\"
 
 $illumposition 0 0 0 "Bip01 Pelvis"

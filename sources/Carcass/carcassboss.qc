@@ -12,8 +12,6 @@ $surfaceprop "flesh"
 
 $contents "solid"
 
-$mostlyopaque
-
 $cdmaterials "models\vj_cofr\cof\carcass\"
 
 $illumposition 0 0 0 "ryggrad1"

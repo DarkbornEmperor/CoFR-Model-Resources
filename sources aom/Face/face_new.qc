@@ -8,8 +8,6 @@ $surfaceprop "flesh"
 
 $contents "solid"
 
-$mostlyopaque
-
 $cdmaterials "models\vj_cofr\aom\face\"
 
 $eyeposition 0 0 75

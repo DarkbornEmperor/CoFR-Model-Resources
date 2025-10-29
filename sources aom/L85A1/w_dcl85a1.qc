@@ -10,8 +10,6 @@ $surfaceprop "weapon"
 
 $contents "solid"
 
-$mostlyopaque
-
 $cdmaterials "models\vj_cofr\aom\weapons\l85\"
 
 $illumposition 0 0 0 "Line06"

@@ -8,8 +8,6 @@ $surfaceprop "flesh"
 
 $contents "solid"
 
-$mostlyopaque
-
 $cdmaterials "models\vj_cofr\cof\spitter\"
 
 $illumposition 0 0 0 "joint2"

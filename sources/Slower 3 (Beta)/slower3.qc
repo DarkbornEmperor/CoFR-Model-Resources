@@ -17,8 +17,6 @@ $surfaceprop "flesh"
 
 $contents "solid"
 
-$mostlyopaque
-
 $cdmaterials "models\vj_cofr\cof\slower3_beta\" "models\vj_cofr\cof\slower1\" "models\vj_cofr\cof\croucher\"
 
 $illumposition 0 0 0 "Bip01 Pelvis"

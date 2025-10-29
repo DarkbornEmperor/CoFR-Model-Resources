@@ -8,8 +8,6 @@ $surfaceprop "flesh"
 
 $contents "solid"
 
-$mostlyopaque
-
 $cdmaterials "models\vj_cofr\custom\mother\"
 
 $illumposition 0 0 0 "Bip01 Pelvis"

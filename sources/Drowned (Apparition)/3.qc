@@ -13,8 +13,6 @@ $surfaceprop "flesh"
 
 $contents "solid"
 
-$mostlyopaque
-
 $cdmaterials "models\vj_cofr\cof\drowned\"
 
 $illumposition 0 0 0 "Bip01 Pelvis"
