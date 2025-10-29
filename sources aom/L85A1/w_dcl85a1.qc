@@ -10,18 +10,20 @@ $surfaceprop "weapon"
 
 $contents "solid"
 
+$mostlyopaque
+
 $cdmaterials "models\vj_cofr\aom\weapons\l85\"
 
 $illumposition 0 0 0 "Line06"
 
-$attachment "muzzle" "Line06" 0.40 39.50 1.10 rotate -0 85 180
-$attachment "shell" "Line06" -4.00 9.20 0.30 rotate -0 175 -180
+$attachment "muzzle" "Line06" 0.40 53.00 1.50 rotate -0 85 -180
+$attachment "shell" "Line06" -5.00 12.50 0.30 rotate -0 175 -180
 
 $cbox 0 0 0 0 0 0
 
 $bbox -8 -8 0 8 8 5
 
-$hbox 0 "Line06" -4.5225 -0.96 -4.485 0.9225 39.345001 10.14
+$hbox 0 "Line06" -6.03 -1.28 -5.98 1.23 52.459999 13.52
 
 $sequence "idle1" {
 	"w_dcl85a1_anims\idle1"

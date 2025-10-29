@@ -13,8 +13,8 @@ $cdmaterials "models\vj_cofr\aom\weapons\uzi\"
 
 $illumposition 0 0 0 "MAC-10"
 
-$attachment "muzzle" "MAC-10" 0.60 -1.60 4.50 rotate -90 -90 0
-$attachment "shell" "MAC-10" -0.50 -1.00 -8.00 rotate -0 180 90
+$attachment "muzzle" "MAC-10" 0.45 -1.66 10.20 rotate -90 -90 0
+$attachment "shell" "MAC-10" -0.80 -0.50 -8.20 rotate -0 180 90
 
 $cbox 0 0 0 0 0 0
 
