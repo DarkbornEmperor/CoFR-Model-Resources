@@ -111,13 +111,13 @@ $sequence "attack1" {
 	"screamer_anims\attack1"
 	ACT_RANGE_ATTACK1 1
 	{ event 1100 1 "sprite" }
-	{ event 1100 29 "attack_range" }
-	{ event 1100 31 "attack_range" }
-	{ event 1100 33 "attack_range" }
-	{ event 1100 35 "attack_range" }
-	{ event 1100 37 "attack_range" }
-	{ event 1100 39 "attack_range" }
-	{ event 1100 41 "attack_range" }
+	{ event 1100 29 "range" }
+	{ event 1100 31 "range" }
+	{ event 1100 33 "range" }
+	{ event 1100 35 "range" }
+	{ event 1100 37 "range" }
+	{ event 1100 39 "range" }
+	{ event 1100 41 "range" }
 	fps 15
 	loop
 }
@@ -125,13 +125,13 @@ $sequence "attack2" {
 	"screamer_anims\attack2"
 	ACT_RANGE_ATTACK1 1
 	{ event 1100 1 "sprite" }
-	{ event 1100 25 "attack_range" }
-	{ event 1100 27 "attack_range" }
-	{ event 1100 29 "attack_range" }
-	{ event 1100 31 "attack_range" }
-	{ event 1100 33 "attack_range" }
-	{ event 1100 35 "attack_range" }
-	{ event 1100 37 "attack_range" }
+	{ event 1100 25 "range" }
+	{ event 1100 27 "range" }
+	{ event 1100 29 "range" }
+	{ event 1100 31 "range" }
+	{ event 1100 33 "range" }
+	{ event 1100 35 "range" }
+	{ event 1100 37 "range" }
 	fps 15
 	loop
 }
@@ -155,7 +155,7 @@ $sequence "shoot" {
 	"screamer_anims\shoot"
 	ACT_RANGE_ATTACK2 1
 	{ event 1100 28 "" }
-	{ event 1100 56 "attack_rangeclose" }
+	{ event 1100 56 "range_close" }
 	fps 30
 }
 $sequence "flinch1" {

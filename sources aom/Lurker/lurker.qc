@@ -3,6 +3,8 @@
 // Stored modelname (without quotes): "valve/models/icky.mdl"
 $modelname "lurker.mdl"
 
+$origin 0 0 -25 0
+
 $model "studio" "reference"
 
 $surfaceprop "flesh"
