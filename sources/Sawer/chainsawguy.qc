@@ -22,6 +22,7 @@ $texturegroup "skinfamilies"
 }
 
 $attachment "chainsaw" "chainsaw" 0 0 0
+$attachment "eye" "eye" 0.00 -5.50 0.00 rotate 0 0 -0
 $attachment "eyes" "Bip01 Head" 0.00 5.50 4.50 rotate 0 90 0
 
 $cbox 0 0 0 0 0 0
