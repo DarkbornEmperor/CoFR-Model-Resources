@@ -14,6 +14,7 @@ $illumposition 0 0 0 "Bip01 Pelvis"
 
 $eyeposition 0 0 55
 
+$attachment "mouth" "Bip01 Head" 0.50 -4.80 5.00 rotate -0 0 0
 $attachment "eyes" "Bip01 Head" 0.50 -4.00 7.00 rotate 0 -94 0
 
 $cbox 0 0 0 0 0 0

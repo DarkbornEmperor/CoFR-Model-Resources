@@ -158,79 +158,79 @@ $sequence "dieheadshot" {
 $sequence "dieheadshot1" {
 	"slower3_anims\dieheadshot_2"
 	ACT_DIE_HEADSHOT 1
-	{ event 2001 24 "death" }
+	{ event 1100 24 "death" }
 	fps 30
 	X
 }
 $sequence "dieheadshot2" {
 	"slower3_anims\dieheadshot2"
 	ACT_DIE_GUTSHOT 1
-	{ event 2001 16 "death" }
+	{ event 1100 16 "death" }
 	fps 30
 }
 $sequence "dieheadshot3" {
 	"slower3_anims\dieheadshot2_2"
 	ACT_DIE_GUTSHOT 1
-	{ event 2001 24 "death" }
+	{ event 1100 24 "death" }
 	fps 30
 }
 $sequence "diesimple1" {
 	"slower3_anims\diesimple"
 	ACT_DIESIMPLE 1
-	{ event 2001 16 "death" }
+	{ event 1100 16 "death" }
 	fps 30
 	X
 }
 $sequence "diesimple2" {
 	"slower3_anims\diesimple_2"
 	ACT_DIESIMPLE 1
-	{ event 2001 26 "death" }
+	{ event 1100 26 "death" }
 	fps 30
 	X
 }
 $sequence "diesimple3" {
 	"slower3_anims\diesimple_3"
 	ACT_DIESIMPLE 1
-	{ event 2001 24 "death" }
+	{ event 1100 24 "death" }
 	fps 30
 	X
 }
 $sequence "diebackward1" {
 	"slower3_anims\diebackward"
 	ACT_DIEBACKWARD 1
-	{ event 2001 16 "death" }
+	{ event 1100 16 "death" }
 	fps 30
 }
 $sequence "diebackward2" {
 	"slower3_anims\diebackward_2"
 	ACT_DIEBACKWARD 1
-	{ event 2001 26 "death" }
+	{ event 1100 26 "death" }
 	fps 30
 }
 $sequence "diebackward3" {
 	"slower3_anims\diebackward_3"
 	ACT_DIEBACKWARD 1
-	{ event 2001 24 "death" }
+	{ event 1100 24 "death" }
 	fps 30
 }
 $sequence "dieforward1" {
 	"slower3_anims\dieforward"
 	ACT_DIEFORWARD 1
-	{ event 2001 16 "death" }
+	{ event 1100 16 "death" }
 	fps 30
 	X
 }
 $sequence "dieforward2" {
 	"slower3_anims\dieforward_2"
 	ACT_DIEFORWARD 1
-	{ event 2001 26 "death" }
+	{ event 1100 26 "death" }
 	fps 30
 	X
 }
 $sequence "dieforward3" {
 	"slower3_anims\dieforward_3"
 	ACT_DIEFORWARD 1
-	{ event 2001 24 "death" }
+	{ event 1100 24 "death" }
 	fps 30
 	X
 }
