@@ -16,7 +16,7 @@ $illumposition 0 0 0 "Bone008"
 
 $eyeposition 0 0 55
 
-$attachment "eyes" "Bone003" 1.00 -6.00 15.00 rotate 0 -90 -0
+$attachment "eyes" "Bone002" -30.00 0.00 90.00 rotate -90 -90 0
 
 $cbox 0 0 0 0 0 0
 
