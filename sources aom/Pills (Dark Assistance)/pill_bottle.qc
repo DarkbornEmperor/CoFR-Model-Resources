@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "w_pills_da.mdl"
+$modelname "w_pills.mdl"
 
 $model "body" "pill_ref"
 
