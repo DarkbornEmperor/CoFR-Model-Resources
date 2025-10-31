@@ -3,7 +3,7 @@
 // Stored modelname (without quotes): "faceless2.mdl"
 $modelname "faceless_crawler.mdl"
 
-//$origin 0 -10 0
+$origin 0 -10 0
 
 $model "body" "faceless"
 

@@ -5,6 +5,8 @@ $modelname "slowerten2.mdl"
 
 $model "body" "refslower"
 
+$origin 0 -2 0
+
 $surfaceprop "flesh"
 
 $contents "solid"

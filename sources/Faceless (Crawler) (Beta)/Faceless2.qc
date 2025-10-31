@@ -5,6 +5,8 @@ $modelname "faceless_crawler_beta.mdl"
 
 $model "body" "faceless"
 
+$origin 0 -10 0
+
 $surfaceprop "flesh"
 
 $contents "solid"

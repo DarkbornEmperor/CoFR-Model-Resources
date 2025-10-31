@@ -2,6 +2,8 @@
 
 $modelname "crocodile.mdl"
 
+$origin 0 -50 0
+
 $model "studio" "base"
 
 $surfaceprop "flesh"
