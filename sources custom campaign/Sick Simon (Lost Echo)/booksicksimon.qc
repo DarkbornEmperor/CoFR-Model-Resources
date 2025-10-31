@@ -118,4 +118,5 @@ $sequence "death" {
 	"booksicksimon_anims\death.smd"
 	activity "ACT_DIESIMPLE" 1
 	fps 30
+	origin 0 0 0
 }
