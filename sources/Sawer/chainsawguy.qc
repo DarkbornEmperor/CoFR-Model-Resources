@@ -64,14 +64,14 @@ $sequence "ref" {
 	loop
 }
 
-$Sequence "aim_yaw" {
+$Sequence "eye_move" {
     "aimright"
     "aimcenter"
     "aimleft"
     delta
     blendwidth 3
     blendcenter aimcenter
-    blend "aim_yaw" -60 60
+    blend "eye_move" -60 60
 }
 
 $sequence "idle" {
@@ -136,7 +136,7 @@ $sequence "hurt" {
 	ACT_COWER 1
 	{ event 1100 179 "eye_close" }
 	fps 30
-	addlayer "aim_yaw"
+	addlayer "eye_move"
 }
 $sequence "death" {
 	"chainsawguy_anims\hurt"
