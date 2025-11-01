@@ -167,6 +167,7 @@ $sequence "run_1" {
 	fps 15
 	loop
 	LX
+    origin 0 -120 0
 }
 $sequence "run_2" {
 	"dasubergator_anims\run_2"
@@ -180,6 +181,7 @@ $sequence "run_2" {
 	fps 25
 	loop
 	LX
+    origin 0 -120 0
 }
 $sequence "diesimple" {
 	"dasubergator_anims\diesimple"

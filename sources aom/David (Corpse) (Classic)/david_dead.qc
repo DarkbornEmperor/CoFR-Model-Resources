@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "david_corpse_classic.mdl"
+$modelname "david_corpse.mdl"
 
 $model "body" "ref"
 

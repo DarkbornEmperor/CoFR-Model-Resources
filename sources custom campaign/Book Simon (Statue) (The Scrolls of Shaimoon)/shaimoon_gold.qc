@@ -102,7 +102,7 @@ $sequence "sledgeflare_death" {
 	{ event 1100 38 "step" }
 	{ event 1100 80 "death" }
 	{ event 1100 0 "" }
-	fps 9
+	fps 30
 }
 $sequence "sledgeflare_idle_2" {
 	"shaimoon_gold_anims\sledgeflare_idle_2"
