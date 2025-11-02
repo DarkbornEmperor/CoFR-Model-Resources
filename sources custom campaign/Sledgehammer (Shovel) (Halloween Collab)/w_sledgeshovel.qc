@@ -9,7 +9,7 @@ $surfaceprop "weapon"
 
 $contents "solid"
 
-$cdmaterials "models\vj_cofr\custom\weapons\shovel\"
+$cdmaterials "models\vj_cofr\cofcc\weapons\shovel\"
 
 $illumposition 0 0 0 "prop"
 

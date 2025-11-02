@@ -9,7 +9,7 @@ $surfaceprop "weapon"
 
 $contents "solid"
 
-$cdmaterials "models\vj_cofr\custom\weapons\ak47\"
+$cdmaterials "models\vj_cofr\cofcc\weapons\ak47\"
 
 $illumposition 0 0 0 "joint1"
 

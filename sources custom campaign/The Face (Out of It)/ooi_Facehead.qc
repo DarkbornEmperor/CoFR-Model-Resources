@@ -11,7 +11,7 @@ $surfaceprop "flesh"
 
 $contents "solid"
 
-$cdmaterials "models\vj_cofr\custom\facehead_ooi\"
+$cdmaterials "models\vj_cofr\cofcc\facehead_ooi\"
 
 $illumposition 0 0 0 "joint2"
 

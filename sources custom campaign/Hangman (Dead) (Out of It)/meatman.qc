@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "C:\Users\Joe\Desktop\meatbitch\meatman.mdl"
-$modelname "meatman.mdl"
+$modelname "hangman_dead_ooi.mdl"
 
 $origin 0 0 -97
 
@@ -11,7 +11,7 @@ $surfaceprop "flesh"
 
 $contents "solid"
 
-$cdmaterials "models\vj_cofr\custom\meatman\"
+$cdmaterials "models\vj_cofr\cofcc\meatman\"
 
 $illumposition 0 0 0 "joint1"
 

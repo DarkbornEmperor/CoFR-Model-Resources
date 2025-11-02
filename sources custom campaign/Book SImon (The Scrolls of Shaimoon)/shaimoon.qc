@@ -11,7 +11,7 @@ $surfaceprop "flesh"
 
 $contents "solid"
 
-$cdmaterials "models\vj_cofr\custom\shaimoon\"
+$cdmaterials "models\vj_cofr\cofcc\shaimoon\"
 
 $illumposition 0 0 0 "Bip01 Pelvis"
 

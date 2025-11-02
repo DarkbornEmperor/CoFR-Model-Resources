@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "baby.mdl"
-$modelname "baby_ooi2.mdl"
+$modelname "baby2_ooi.mdl"
 
 $bodygroup "body"
 {
@@ -15,7 +15,7 @@ $contents "solid"
 
 $eyeposition 0 0 55
 
-$cdmaterials "models\vj_cofr\custom\babyswimmer2\"
+$cdmaterials "models\vj_cofr\cofcc\babyswimmer2\"
 
 $illumposition 0 0 0 "Bip01 Pelvis"
 

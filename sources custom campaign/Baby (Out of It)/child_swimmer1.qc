@@ -15,7 +15,7 @@ $contents "solid"
 
 $eyeposition 0 0 55
 
-$cdmaterials "models\vj_cofr\custom\babyswimmer\"
+$cdmaterials "models\vj_cofr\cofcc\babyswimmer\"
 
 $illumposition 0 0 0 "Bip01 Pelvis"
 

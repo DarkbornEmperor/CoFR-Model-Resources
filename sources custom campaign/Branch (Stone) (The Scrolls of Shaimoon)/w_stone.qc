@@ -9,7 +9,7 @@ $surfaceprop "stone"
 
 $contents "solid"
 
-$cdmaterials "models\vj_cofr\custom\weapons\stone\"
+$cdmaterials "models\vj_cofr\cofcc\weapons\stone\"
 
 $illumposition 0 0 0 "joint1"
 

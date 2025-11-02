@@ -8,7 +8,7 @@ $surfaceprop "flesh"
 
 $contents "solid"
 
-$cdmaterials "models\vj_cofr\custom\mother_real\"
+$cdmaterials "models\vj_cofr\cofcc\mother_real\"
 
 $illumposition 0 0 0 "Bip01 Pelvis"
 
