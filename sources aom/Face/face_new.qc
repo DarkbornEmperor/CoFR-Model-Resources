@@ -126,7 +126,7 @@ $sequence "bigflinch" {
 $sequence "mattack2" {
 	"face_new_anims\mattack2"
 	ACT_MELEE_ATTACK1 1
-	{ event 1100 8 :melee" }
+	{ event 1100 8 "melee" }
 	fps 15
 }
 $sequence "mattack3" {
