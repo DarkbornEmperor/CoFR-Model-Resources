@@ -3,6 +3,8 @@
 // Stored modelname (without quotes): "C:\Documents and Settings\Andreas\Desktop\slower45\slower2.mdl"
 $modelname "croucher.mdl"
 
+$origin 0 -12 0
+
 $bodygroup "body"
 {
 	studio "slower2"
@@ -24,7 +26,7 @@ $attachment "eyes" "Bip01 Head" 4.00 2.00 0.50 rotate -0 90 -90
 
 $cbox 0 0 0 0 0 0
 
-$bbox 0 0 0 0 0 0
+$bbox -13 -13 0 13 13 30
 
 $hbox 3 "Bip01 Pelvis" -4.69 -4.44 -6.75 4 5.56 6.75
 $hbox 6 "Bip01 L Leg" 2.66 -3.69 -3.09 18.16 4.88 3.31

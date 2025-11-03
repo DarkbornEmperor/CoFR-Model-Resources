@@ -5,6 +5,8 @@ $modelname "hellhound.mdl"
 
 $model "body" "dog"
 
+$origin 0 -22 0
+
 $surfaceprop "flesh"
 
 $contents "solid"
@@ -24,7 +26,7 @@ $texturegroup "skinfamilies"
 
 $cbox 0 0 0 0 0 0
 
-$bbox -13 -13 0 13 13 40
+$bbox -13 -13 0 13 13 35
 
 $hbox 3 "main" -3.885709 -0.154545 -4.018181 3.979347 1.962726 11.281819
 $hbox 7 "right_back1" -3.978 -4.08 -0.187 1.411 3.553 18.118776

@@ -5,6 +5,8 @@ $modelname "headcrab.mdl"
 
 $model "studio" "reference"
 
+$origin 0 -8 0
+
 $surfaceprop "flesh"
 
 $contents "solid"
