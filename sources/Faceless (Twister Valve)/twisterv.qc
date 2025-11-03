@@ -24,7 +24,7 @@ $attachment "valve" "Bip01 Neck" 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox 0 0 0 0 0 0
+$bbox -13 -13 0 13 13 72
 
 $hbox 3 "Bip01 Pelvis" -3.79 -2.74 -4.09 5.21 1.67 4.86
 $hbox 6 "Bip01 L Leg" -2.75 -4.12 0 4.13 2.36 18.045719
