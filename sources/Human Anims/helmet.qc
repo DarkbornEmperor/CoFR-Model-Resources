@@ -10,6 +10,8 @@ $attachment "eyes" "Bip01 Head" 4.00 4.00 0.00 rotate -0 75 90
 $attachment "rhand" "Bip01 R Hand" 3 0 0
 $attachment "lhand" "Bip01 L Hand" 3 0 0
 
+$poseparameter "move_yaw" -180 180 wrap
+
 $WeightList "weapons" {
 	"Bip01 Spine" 0
 	"Bip01 Spine1" 1
