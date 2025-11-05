@@ -77,19 +77,19 @@ $sequence "run" {
 $sequence "attack_1" {
 	"booksimon_m_anims\attack_1"
 	ACT_MELEE_ATTACK1 2
-	{ event 1100 13 "attack" }
+	{ event 1100 13 "melee" }
 	fps 30
 }
 $sequence "attack_2" {
 	"booksimon_m_anims\attack_2"
 	ACT_MELEE_ATTACK1 2
-	{ event 1100 13 "attack" }
+	{ event 1100 13 "melee" }
 	fps 40
 }
 $sequence "attack_3" {
 	"booksimon_m_anims\attack_3"
 	ACT_MELEE_ATTACK1 2
-	{ event 1100 13 "attack" }
+	{ event 1100 13 "melee" }
 	fps 50
 }
 $sequence "die" {
