@@ -17,13 +17,6 @@ $illumposition 0 0 0 "main"
 
 $attachment "eyes" "head" 0.00 9.00 -0.00 rotate -30 90 0
 
-$texturegroup "skinfamilies"
-{
-	{ "eye.bmp"  }
-	{ "eye1.bmp" }
-	{ "eye2.bmp" }
-}
-
 $cbox 0 0 0 0 0 0
 
 $bbox -13 -13 0 13 13 35

@@ -143,8 +143,6 @@ $sequence "attack1" {
 	"ghost_anims\attack1"
 	ACT_MELEE_ATTACK1 4
 	{ event 1100 7 "melee" }
-	{ event 1100 13 "melee" }
-	{ event 1100 21 "melee" }
 	fps 100
 }
 $sequence "flinch2" {
@@ -189,14 +187,14 @@ $sequence "diesimple" {
 $sequence "diebackward" {
 	"ghost_anims\diebackward"
 	ACT_DIEBACKWARD 1
-	{ event 1100 13 "body" }
+	{ event 1100 13 "death" }
 	fps 20
 	X Y
 }
 $sequence "dieforward" {
 	"ghost_anims\dieforward"
 	ACT_DIEFORWARD 1
-	{ event 1100 18 "body" }
+	{ event 1100 18 "death" }
 	fps 40
 	X Y
 }
