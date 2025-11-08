@@ -71,6 +71,7 @@ $sequence "idle" {
 }
 $sequence "attack" {
 	"carcassboss_anims\attack"
+	ACT_RANGE_ATTACK1 1
 	{ event 1100 0 "stomach_open" }
 	{ event 1100 20 "range" }
 	{ event 1100 40 "range" }

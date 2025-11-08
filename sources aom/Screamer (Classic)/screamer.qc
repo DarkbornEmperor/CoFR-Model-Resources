@@ -119,7 +119,6 @@ $sequence "attack1" {
 	{ event 1100 39 "range" }
 	{ event 1100 41 "range" }
 	fps 15
-	loop
 }
 $sequence "attack2" {
 	"screamer_anims\attack2"
@@ -133,7 +132,6 @@ $sequence "attack2" {
 	{ event 1100 35 "range" }
 	{ event 1100 37 "range" }
 	fps 15
-	loop
 }
 $sequence "throw" {
 	"screamer_anims\throw"
