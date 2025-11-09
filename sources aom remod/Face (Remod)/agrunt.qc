@@ -95,7 +95,7 @@ $sequence "walk" {
 	"agrunt_anims\walk"
 	ACT_WALK 1
 	{ event 1100 9 "step" }
-	{ event 11 19 "step" }
+	{ event 1100 19 "step" }
 	fps 15
 	loop
 	LX
@@ -103,8 +103,8 @@ $sequence "walk" {
 $sequence "run" {
 	"agrunt_anims\run"
 	ACT_RUN 1
-	{ event 11 11 "step" }
-	{ event 11 23 "step" }
+	{ event 1100 11 "step" }
+	{ event 1100 23 "step" }
 	fps 35
 	loop
 	LX

@@ -215,33 +215,33 @@ $sequence "rlflinch" {
 $sequence "dieheadshot" {
 	"zombie2_anims\dieheadshot"
 	ACT_DIE_HEADSHOT 1
-	{ event 1100 19 "melee" }
+	{ event 1100 19 "death" }
 	fps 20
 	X
 }
 $sequence "dieheadshot2" {
 	"zombie2_anims\dieheadshot2"
 	ACT_DIE_GUTSHOT 1
-	{ event 1100 18 "melee" }
+	{ event 1100 18 "death" }
 	fps 22
 }
 $sequence "diesimple" {
 	"zombie2_anims\diesimple"
 	ACT_DIESIMPLE 1
-	{ event 1100 13 "melee" }
+	{ event 1100 13 "death" }
 	fps 20
 	X
 }
 $sequence "diebackward" {
 	"zombie2_anims\diebackward"
 	ACT_DIEBACKWARD 1
-	{ event 1100 10 "melee" }
+	{ event 1100 10 "death" }
 	fps 18
 }
 $sequence "dieforward" {
 	"zombie2_anims\dieforward"
 	ACT_DIEFORWARD 1
-	{ event 1100 21 "melee" }
+	{ event 1100 21 "death" }
 	fps 18
 	X
 }
