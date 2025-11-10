@@ -150,11 +150,6 @@ $sequence "glock_appear" {
 }
 $sequence "glock_idle" {
 	"booksimon_anims\glock_idle"
-	fps 30
-	loop
-}
-$sequence "idle_glock" {
-	"booksimon_anims\idle_glock.smd"
 	activity "ACT_IDLE_STEALTH" 1
 	fps 30
 	loop
@@ -177,11 +172,6 @@ $sequence "tmp_appear" {
 }
 $sequence "tmp_idle" {
 	"booksimon_anims\tmp_idle"
-	fps 30
-	loop
-}
-$sequence "idle_tmp" {
-	"booksimon_anims\idle_tmp.smd"
 	activity "ACT_IDLE_HURT" 1
 	fps 30
 	loop

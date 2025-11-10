@@ -90,7 +90,6 @@ $Sequence "feet_fix" {
     "feetfix"
     delta
     blendcenter aimcenter
-    autoplay
 }
 
 $Sequence "aim_pitch" {
@@ -120,6 +119,7 @@ $sequence "idle_shotgun" {
 	ACT_IDLE 1
 	fps 30
 	loop
+	addlayer "feet_fix"
 }
 $sequence "walk_shotgun" {
 	"booksimon_anims\walk_shotgun"
@@ -129,42 +129,45 @@ $sequence "walk_shotgun" {
 	fps 30
 	loop
 	LX
+	addlayer "feet_fix"
 }
 $sequence "bsimkam1idle" {
 	"booksimon_anims\bsimkam1idle"
 	fps 30
+	addlayer "feet_fix"
 }
 $sequence "bsimkam1" {
 	"booksimon_anims\bsimkam1"
 	fps 30
+	addlayer "feet_fix"
 }
 $sequence "shotgun_appear" {
 	"booksimon_anims\shotgun_appear"
 	fps 30
+	addlayer "feet_fix"
 }
 $sequence "shotgun_idle" {
 	"booksimon_anims\shotgun_idle"
 	fps 30
 	loop
+	addlayer "feet_fix"
 }
 $sequence "shotgun_disappear" {
 	"booksimon_anims\shotgun_disappear"
 	fps 30
+	addlayer "feet_fix"
 }
 $sequence "glock_appear" {
 	"booksimon_anims\glock_appear"
 	fps 30
+	addlayer "feet_fix"
 }
 $sequence "glock_idle" {
 	"booksimon_anims\glock_idle"
-	fps 30
-	loop
-}
-$sequence "idle_glock" {
-	"booksimon_anims\idle_glock.smd"
 	activity "ACT_IDLE_STEALTH" 1
 	fps 30
 	loop
+	addlayer "feet_fix"
 }
 $sequence "walk_glock" {
 	"booksimon_anims\walk_glock.smd"
@@ -173,25 +176,24 @@ $sequence "walk_glock" {
 	{ event 1100 39 "step" }
 	loop
 	LX
+	addlayer "feet_fix"
 }
 $sequence "glock_disappear" {
 	"booksimon_anims\glock_disappear"
 	fps 30
+	addlayer "feet_fix"
 }
 $sequence "tmp_appear" {
 	"booksimon_anims\tmp_appear"
 	fps 30
+	addlayer "feet_fix"
 }
 $sequence "tmp_idle" {
 	"booksimon_anims\tmp_idle"
-	fps 30
-	loop
-}
-$sequence "idle_tmp" {
-	"booksimon_anims\idle_tmp.smd"
 	activity "ACT_IDLE_HURT" 1
 	fps 30
 	loop
+	addlayer "feet_fix"
 }
 $sequence "walk_tmp" {
 	"booksimon_anims\walk_tmp.smd"
@@ -201,16 +203,19 @@ $sequence "walk_tmp" {
 	fps 30
 	loop
 	LX
+	addlayer "feet_fix"
 }
 $sequence "tmp_disappear" {
 	"booksimon_anims\tmp_disappear"
 	fps 30
+	addlayer "feet_fix"
 }
 $sequence "idle_sledgehammer" {
 	"booksimon_anims\idle_sledgehammer"
 	activity "ACT_IDLE_STIMULATED" 1
 	fps 30
 	loop
+	addlayer "feet_fix"
 }
 $sequence "run_sledgehammer" {
 	"booksimon_anims\run_sledgehammer"
@@ -220,18 +225,21 @@ $sequence "run_sledgehammer" {
 	fps 30
 	loop
 	LX
+	addlayer "feet_fix"
 }
 $sequence "attack_sledgehammer" {
 	"booksimon_anims\attack_sledgehammer"
 	activity "ACT_MELEE_ATTACK1" 1
 	{ event 1100 4 "melee" }
 	fps 30
+	addlayer "feet_fix"
 }
 $sequence "sledgeflare_idle" {
 	"booksimon_anims\sledgeflare_idle"
 	activity "ACT_IDLE_RELAXED" 1
 	fps 30
 	loop
+	addlayer "feet_fix"
 }
 $sequence "sledgeflare_run" {
 	"booksimon_anims\sledgeflare_run"
@@ -241,24 +249,28 @@ $sequence "sledgeflare_run" {
 	fps 30
 	loop
 	LX
+	addlayer "feet_fix"
 }
 $sequence "sledgeflare_attack1" {
 	"booksimon_anims\sledgeflare_attack1"
 	ACT_MELEE_ATTACK2 1
 	{ event 1100 4 "melee" }
 	fps 30
+	addlayer "feet_fix"
 }
 $sequence "sledgeflare_attack2" {
 	"booksimon_anims\sledgeflare_attack2"
 	ACT_MELEE_ATTACK2 1
 	{ event 1100 10 "melee" }
 	fps 30
+	addlayer "feet_fix"
 }
 $sequence "sledgeflare_attack3" {
 	"booksimon_anims\sledgeflare_attack3"
 	ACT_MELEE_ATTACK2 1
 	{ event 1100 15 "melee" }
 	fps 30
+	addlayer "feet_fix"
 }
 $sequence "sledgeflare_death" {
 	"booksimon_anims\sledgeflare_death"
@@ -267,12 +279,15 @@ $sequence "sledgeflare_death" {
 	{ event 1100 38 "step" }
 	{ event 1100 80 "death" }
 	fps 30
+	addlayer "feet_fix"
 }
 $sequence "runhide_idle" {
 	"booksimon_anims\runhide_idle"
 	fps 30
+	addlayer "feet_fix"
 }
 $sequence "runhide" {
 	"booksimon_anims\runhide"
 	fps 30
+	addlayer "feet_fix"
 }
