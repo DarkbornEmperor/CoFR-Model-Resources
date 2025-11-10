@@ -10,11 +10,11 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\aomr\handcrab\"
 
-$illumposition 0 0 0 "Bip01 Pelvis"
-
 $eyeposition 0 0 20
 
 $attachment "eyes" "Bip01 Neck" 0.00 -2.00 0.00 rotate -0 -40 90
+
+$illumposition 0 0 0 "Bip01 Pelvis"
 
 $cbox 0 0 0 0 0 0
 

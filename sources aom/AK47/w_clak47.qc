@@ -11,10 +11,10 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\aom\weapons\ak47\"
 
-$illumposition 0 0 0 "joint1"
-
 $attachment "muzzle" "joint1" -21.8 0 -3.5 rotate 0 180 -180
 $attachment "shell" "joint1" 0.00 -1.00 -4.50 rotate 0 -90 -180
+
+$illumposition 0 0 0 "joint1"
 
 $cbox 0 0 0 0 0 0
 

@@ -16,10 +16,10 @@ $eyeposition 0 0 55
 
 $cdmaterials "models\vj_cofr\cofce\baby\"
 
-$illumposition 0 0 0 "Bip01 Pelvis"
-
 $attachment "head" "Bip01 Neck" 0.00 0.00 0.00 rotate -90 -0 0
 $attachment "eyes" "Bip01 Head" 0.50 5.00 1.50 rotate 0 90 -0
+
+$illumposition 0 0 0 "Bip01 Pelvis"
 
 $cbox 0 0 0 0 0 0
 

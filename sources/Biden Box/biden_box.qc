@@ -14,6 +14,8 @@ $cdmaterials "models\vj_cofr\cof\biden\"
 $attachment "box" "joint1" 0 0 0
 $attachment "pointer" "joint2" 0 0 0
 
+$illumposition 0 0 0 "joint1"
+
 $cbox 0 0 0 0 0 0
 
 $bbox -13 -13 0 13 13 25

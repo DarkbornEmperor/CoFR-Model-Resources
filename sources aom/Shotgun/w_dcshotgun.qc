@@ -12,10 +12,10 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\aom\weapons\shotgun\"
 
-$illumposition 0 0 0 "skin01"
-
 $attachment "muzzle" "skin01" -0.60 -17.50 2.60 rotate -0 -90 0
 $attachment "shell" "skin01" -2.00 2.80 1.90 rotate 0 -180 0
+
+$illumposition 0 0 0 "skin01"
 
 $cbox 0 0 0 0 0 0
 

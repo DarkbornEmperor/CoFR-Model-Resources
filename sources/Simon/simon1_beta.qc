@@ -11,8 +11,6 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\cof\simonbeta\"
 
-$illumposition 0 0 0 "Bip01 Pelvis"
-
 $cbox 0 0 0 0 0 0
 
 $bbox -13 -13 0 13 13 72

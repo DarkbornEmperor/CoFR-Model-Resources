@@ -11,10 +11,10 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\aom\weapons\p228\"
 
-$illumposition 0 0 0 "p228"
-
 $attachment "muzzle" "p228" -0.30 -9.50 4.90 rotate -0 -90 0
 $attachment "shell" "p228" 0.50 -3.00 5.00 rotate -0 0 -0
+
+$illumposition 0 0 0 "p228"
 
 $cbox 0 0 0 0 0 0
 

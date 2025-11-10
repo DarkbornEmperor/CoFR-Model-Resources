@@ -10,13 +10,13 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\aomr\ghost\"
 
-$illumposition 0 0 0 "Bip01 Pelvis"
-
 $eyeposition 0 0 43
 
 $attachment "rhand" "Bip01 R Hand" 0 0 0
 $attachment "lhand" "Bip01 L Hand" 0 0 0
 $attachment "eyes" "Bip01 Head" 12.00 3.00 0.00 rotate 0 0 90
+
+$illumposition 0 0 0 "Bip01 Pelvis"
 
 $cbox 0 0 0 0 0 0
 

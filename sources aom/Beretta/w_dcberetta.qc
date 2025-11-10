@@ -11,10 +11,10 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\aom\weapons\beretta\"
 
-$illumposition 0 0 0 "usp_skin"
-
 $attachment "muzzle" "usp_skin" -3.50 -4.06 -7.50 rotate 90 90 0
 $attachment "shell" "usp_skin" -1.20 0.70 -4.20 rotate 55 90 -75
+
+$illumposition 0 0 0 "usp_skin"
 
 $cbox 0 0 0 0 0 0
 

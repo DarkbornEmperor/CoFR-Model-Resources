@@ -12,9 +12,9 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\cofcc\dasubergator\"
 
-$illumposition 0 0 0 "Bip01 Pelvis"
-
 $attachment "eyes" "Bip01 Head" 10.00 20.00 0.00 rotate -0 90 90
+
+$illumposition 0 0 0 "Bip01 Pelvis"
 
 $cbox 0 0 0 0 0 0
 

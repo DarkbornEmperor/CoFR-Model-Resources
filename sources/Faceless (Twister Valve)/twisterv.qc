@@ -14,13 +14,12 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\cof\faceless\"
 
-$illumposition 0 0 0 "Bip01 Pelvis"
-
+$attachment "valve" "Bip01 Neck" 0 0 0
 $attachment "eyes" "Bip01 Neck" -0.20 -2.00 4.00 rotate -0 -90 0
 
-$eyeposition 0 0 55
+$illumposition 0 0 0 "Bip01 Pelvis"
 
-$attachment "valve" "Bip01 Neck" 0 0 0
+$eyeposition 0 0 55
 
 $cbox 0 0 0 0 0 0
 

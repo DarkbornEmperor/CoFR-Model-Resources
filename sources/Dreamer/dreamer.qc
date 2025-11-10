@@ -11,9 +11,9 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\cof\dreamer\"
 
-$illumposition 0 0 0 "Bip01 Pelvis"
-
 $attachment "eyes" "Bip01 Head" -6.00 -0.40 4.50 rotate 0 175 -0
+
+$illumposition 0 0 0 "Bip01 Pelvis"
 
 $cbox 0 0 0 0 0 0
 

@@ -31,13 +31,13 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\cof\simon\" "models\vj_cofr\cof\booksimon\"
 
-$illumposition 0 0 0 "Bip01 Pelvis"
-
 $attachment "pistol_muzzle" "Bip01 R Hand" 1 3 9
 $attachment "shotgun_muzzle" "Bip01 R Hand" 3 8 30
 $attachment "tmp_muzzle" "Bip01 R Hand" 0.5 3 11
 $attachment "flare" "Bip01 L Hand" 1 -4 3
 $attachment "eyes" "Bip01 Head" 0.00 -5.00 1.50 rotate 0 -90 0
+
+$illumposition 0 0 0 "Bip01 Pelvis"
 
 $cbox 0 0 0 0 0 0
 

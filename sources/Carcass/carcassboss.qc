@@ -14,10 +14,10 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\cof\carcass\"
 
-$illumposition 0 0 0 "ryggrad1"
-
 $attachment "stomach" "ryggrad1" 0 10 -10
 $attachment "eyes" "huvud2" 0.00 -6.00 6.50 rotate -0 -90 -0
+
+$illumposition 0 0 0 "ryggrad1"
 
 $cbox 0 0 0 0 0 0
 

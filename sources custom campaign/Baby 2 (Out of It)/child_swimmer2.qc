@@ -17,10 +17,10 @@ $eyeposition 0 0 55
 
 $cdmaterials "models\vj_cofr\cofcc\babyswimmer2\"
 
-$illumposition 0 0 0 "Bip01 Pelvis"
-
 $attachment "head" "Bip01 Neck" 0.00 0.00 0.00 rotate -90 -0 0
 $attachment "eyes" "Bip01 Head" 0.50 5.00 1.50 rotate 0 90 -0
+
+$illumposition 0 0 0 "Bip01 Pelvis"
 
 $hbox 3 "Bip01 Pelvis" -3.712862 -0.924228 -3.37 3.81 6.53 3.52
 $hbox 6 "Bip01 L Leg" -2.77 -3.7 -0.75 2.26 3.43 16.047295

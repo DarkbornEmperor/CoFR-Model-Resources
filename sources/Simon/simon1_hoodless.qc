@@ -11,8 +11,6 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\cof\simon\" "models\vj_cofr\cof\simon\aom\" "models\vj_cofr\cof\simon\aphextwin\" "models\vj_cofr\cof\simon\awesome\" "models\vj_cofr\cof\simon\blackmetal\" "models\vj_cofr\cof\simon\camo\" "models\vj_cofr\cof\simon\david\" "models\vj_cofr\cof\simon\gamebanana\" "models\vj_cofr\cof\simon\hellokitty\" "models\vj_cofr\cof\simon\hlc\" "models\vj_cofr\cof\simon\moddb\" "models\vj_cofr\cof\simon\psykskallar\" "models\vj_cofr\cof\simon\sick\" "models\vj_cofr\cof\simon\twitcher\"
 
-$illumposition 0 0 0 "Bip01 Pelvis"
-
 $texturegroup "skinfamilies"
 {
 	{ "hoodie_grey"        "jeans"            "head_face" }

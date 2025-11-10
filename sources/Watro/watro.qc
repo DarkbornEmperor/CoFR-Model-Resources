@@ -12,11 +12,11 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\cof\watro\"
 
-$illumposition 0 0 0 "joint2"
-
 $eyeposition 0 0 55
 
 $attachment "eyes" "joint2" 1.00 -6.00 15.00 rotate 0 -90 -0
+
+$illumposition 0 0 0 "joint2"
 
 $cbox 0 0 0 0 0 0
 

@@ -11,10 +11,10 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\aom\weapons\beretta\classic\"
 
-$illumposition 0 0 0 "joint1"
-
 $attachment "muzzle" "joint1" 7.80 0.00 3.40 rotate -0 0 0
 $attachment "shell" "joint1" 1.00 -1.00 3.50 rotate -2 -90 2
+
+$illumposition 0 0 0 "joint1"
 
 $cbox 0 0 0 0 0 0
 

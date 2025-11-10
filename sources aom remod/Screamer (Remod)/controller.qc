@@ -10,8 +10,6 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\aomr\screamer\"
 
-$illumposition 0 0 0 "Bip01 Pelvis"
-
 $eyeposition 0 0 -2
 
 $attachment "head" "Bip01 Head" 22 -21 0
@@ -19,6 +17,8 @@ $attachment "head2" "Bip01 Head" 32 30 0
 $attachment "lhand" "Bip01 L Hand" 2 2 0
 $attachment "rhand" "Bip01 R Hand" 2 2 0
 $attachment "eyes" "Bip01 Head" 5.00 6.00 -0.30 rotate 0 50 90
+
+$illumposition 0 0 0 "Bip01 Pelvis"
 
 $cbox 0 0 0 0 0 0
 

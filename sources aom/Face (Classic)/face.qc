@@ -15,10 +15,10 @@ $cdmaterials "models\vj_cofr\aom\face\classic\"
 
 $eyeposition 0 0 75
 
-$illumposition 0 0 0 "Bip01 Pelvis"
-
 $Attachment "hornet" "Bip01 R Hand" 0 0 0 rotate 0 0 0
 $attachment "eyes" "Bip01 Head" 7.00 12.00 -0.50 rotate -0 75 90
+
+$illumposition 0 0 0 "Bip01 Pelvis"
 
 $cbox 0 0 0 0 0 0
 

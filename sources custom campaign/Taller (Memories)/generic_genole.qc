@@ -11,11 +11,11 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\cofcc\genome_generic\"
 
-$illumposition 0 0 0 "Bip01 Pelvis"
-
 $eyeposition 0 0 55
 
 $attachment "eyes" "Bip01 Head" 1.00 -6.00 15.00 rotate 0 -90 -0
+
+$illumposition 0 0 0 "Bip01 Pelvis"
 
 $cbox 0 0 0 0 0 0
 

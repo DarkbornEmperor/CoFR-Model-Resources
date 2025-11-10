@@ -14,10 +14,10 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\cof\weapons\m76\"
 
-$illumposition 0 0 0 "body"
-
 $attachment "muzzle" "body" 0.00 0.10 13.00 rotate -90 -90 0
 $attachment "shell" "body" -0.80 0.50 4.60 rotate -0 -180 0
+
+$illumposition 0 0 0 "body"
 
 $cbox 0 0 0 0 0 0
 

@@ -12,9 +12,9 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\aomr\hellhound\"
 
-$illumposition 0 0 0 "main"
-
 $attachment "eyes" "head" 0.00 9.00 -0.00 rotate -30 90 0
+
+$illumposition 0 0 0 "main"
 
 $cbox 0 0 0 0 0 0
 

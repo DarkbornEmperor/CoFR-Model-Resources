@@ -10,12 +10,12 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\cof\spitter\"
 
-$illumposition 0 0 0 "joint2"
-
 $eyeposition 0 0 55
 
 $attachment "mouth" "joint22" 0 4 4
 $attachment "eyes" "joint22" 0.00 2.00 8.00 rotate -40 90 0
+
+$illumposition 0 0 0 "joint2"
 
 $cbox 0 0 0 0 0 0
 

@@ -11,11 +11,11 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\cofce\hh\crawler\"
 
-$illumposition 0 0 0 "Bip01 Pelvis"
-
 $eyeposition 0 -50 20
 
 $attachment "eyes" "Bip01 Head" 3.50 2.00 0.50 rotate 0 90 90
+
+$illumposition 0 0 0 "Bip01 Pelvis"
 
 $cbox 0 0 0 0 0 0
 

@@ -10,11 +10,11 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\aom\twitcher\"
 
-$illumposition 0 0 0 "Bip01 Pelvis"
-
 $eyeposition 0 0 28
 
 $attachment "eyes" "Bip01 Spine1" 5.00 -10.00 -0.50 rotate 0 -30 90
+
+$illumposition 0 0 0 "Bip01 Pelvis"
 
 $cbox 0 0 0 0 0 0
 

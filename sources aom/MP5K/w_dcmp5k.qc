@@ -11,10 +11,10 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\aom\weapons\mp5k\"
 
-$illumposition 0 0 0 "Line06"
-
 $attachment "muzzle" "Line06" 0.50 0.35 16.20 rotate -90 -0 0
 $attachment "shell" "Line06" -1.20 -1.00 0.20 rotate -0 -95 90
+
+$illumposition 0 0 0 "Line06"
 
 $cbox 0 0 0 0 0 0
 

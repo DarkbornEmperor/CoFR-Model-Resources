@@ -4,11 +4,11 @@ $cdmaterials "models\vj_cofr\cof\simon\"
 $surfaceprop "flesh"
 $origin 0 0 -36
 
-$illumposition 0 0 0 "Bip01 Pelvis"
-
 $attachment "eyes" "Bip01 Head" 4.00 4.00 0.00 rotate -0 75 90
 $attachment "rhand" "Bip01 R Hand" 3 0 0
 $attachment "lhand" "Bip01 L Hand" 3 0 0
+
+$illumposition 0 0 0 "Bip01 Pelvis"
 
 $poseparameter "move_yaw" -180 180 wrap
 

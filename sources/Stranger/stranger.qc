@@ -10,11 +10,11 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\cof\stranger\"
 
-$illumposition 0 0 0 "Bip01 Pelvis"
-
 $eyeposition 0 0 55
 
 $attachment "eyes" "Bip01 Head" -0.30 0.00 4.00 rotate 0 -73 0
+
+$illumposition 0 0 0 "Bip01 Pelvis"
 
 $cbox 0 0 0 0 0 0
 

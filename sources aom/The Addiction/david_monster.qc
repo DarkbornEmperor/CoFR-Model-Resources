@@ -14,8 +14,6 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\aom\addiction\"
 
-$illumposition 0 0 0 "Bip02 Pelvis"
-
 $eyeposition 0 0 55
 
 $attachment "axe" "Bip02 Spine1" 0 0 0 rotate 0 0 0
@@ -23,6 +21,8 @@ $attachment "fire" "Bip02 Spine1" 15 0 0 rotate 0 0 0
 $attachment "rhand" "Bip02 R Hand" 1 1 -8 rotate 0 0 0
 $attachment "lhand" "Bip02 L Hand" 1 0 8 rotate 0 0 0
 $attachment "eyes" "Bip02 Head" 8.00 3.00 0.30 rotate 0 90 90
+
+$illumposition 0 0 0 "Bip02 Pelvis"
 
 $cbox 0 0 0 0 0 0
 

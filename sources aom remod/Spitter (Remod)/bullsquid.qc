@@ -10,11 +10,11 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\aomr\spitter\"
 
-$illumposition 0 0 0 "Bip01 Pelvis"
-
 $eyeposition 0 0 28
 
 $attachment "eyes" "Bip01 Head" 0.00 8.00 0.00 rotate 0 90 90
+
+$illumposition 0 0 0 "Bip01 Pelvis"
 
 $cbox 0 0 0 0 0 0
 

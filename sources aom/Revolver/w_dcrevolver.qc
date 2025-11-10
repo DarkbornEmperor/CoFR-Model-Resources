@@ -11,9 +11,9 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\aom\weapons\revolver\"
 
-$illumposition 0 0 0 "DEagle2"
-
 $attachment "muzzle" "DEagle2" 8.80 2.55 0.85 rotate -0 -0 -90
+
+$illumposition 0 0 0 "DEagle2"
 
 $cbox 0 0 0 0 0 0
 

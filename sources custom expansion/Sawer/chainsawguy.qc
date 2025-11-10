@@ -11,8 +11,6 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\cofce\sawer\"
 
-$illumposition 0 0 0 "Bip01 Pelvis"
-
 $eyeposition 0 0 64
 
 $texturegroup "skinfamilies"
@@ -24,6 +22,8 @@ $texturegroup "skinfamilies"
 $attachment "chainsaw" "chainsaw" 0 0 0
 $attachment "eye" "eye" 0.00 -4.00 -0.50 rotate 0 0 0
 $attachment "eyes" "Bip01 Head" 0.00 5.50 4.50 rotate 0 90 0
+
+$illumposition 0 0 0 "Bip01 Pelvis"
 
 $cbox 0 0 0 0 0 0
 

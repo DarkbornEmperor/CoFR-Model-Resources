@@ -15,10 +15,10 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\cof\drowned\"
 
-$illumposition 0 0 0 "Bip01 Pelvis"
-
 $attachment "baby" "bspine2" 0 0 0
 $attachment "eyes" "Bip01 Head" -6.00 -2.00 0.00 rotate 0 -160 -0
+
+$illumposition 0 0 0 "Bip01 Pelvis"
 
 $cbox 0 0 0 0 0 0
 

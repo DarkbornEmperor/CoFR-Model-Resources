@@ -10,11 +10,11 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\cofcc\meatman\"
 
-$illumposition 0 0 0 "knan"
-
 $eyeposition 0 0 72
 
 $attachment "eyes" "huvud2" 0.00 0.00 0.00 rotate 0 0 0
+
+$illumposition 0 0 0 "knan"
 
 $cbox 0 0 0 0 0 0
 

@@ -16,11 +16,11 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\cofce\sewmo\"
 
-$illumposition 0 0 0 "Bip01 Pelvis"
-
 $eyeposition 0 0 55
 
 $attachment "eyes" "Bip01 Head" 0.00 -1.50 5.00 rotate -90 90 0
+
+$illumposition 0 0 0 "Bip01 Pelvis"
 
 $cbox 0 0 0 0 0 0
 

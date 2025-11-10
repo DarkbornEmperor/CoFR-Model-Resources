@@ -12,10 +12,10 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\aom\devourer\classic\"
 
-$illumposition 0 0 0 "Bone02"
-
 $attachment "mouth" "Bone01" 0 -24 0
 $attachment "eyes" "Bone02" 0.00 -20.00 0.00 rotate -0 -90 0
+
+$illumposition 0 0 0 "Bone02"
 
 $cbox 0 0 0 0 0 0
 

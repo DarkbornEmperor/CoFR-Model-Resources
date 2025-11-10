@@ -13,9 +13,9 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\cof\facehead\"
 
-$illumposition 0 0 0 "joint2"
-
 $attachment "eyes" "joint2" 0.00 -33.00 10.00 rotate -0 -90 0
+
+$illumposition 0 0 0 "joint2"
 
 $cbox 0 0 0 0 0 0
 

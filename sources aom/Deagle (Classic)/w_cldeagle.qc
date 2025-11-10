@@ -11,10 +11,10 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\aom\weapons\deagle\classic\"
 
-$illumposition 0 0 0 "joint1"
-
 $attachment "muzzle" "joint1" 7.30 -0.10 -2.50 rotate 0 0 180
 $attachment "shell" "joint1" 0.00 0.80 -3.20 rotate 10 90 -180
+
+$illumposition 0 0 0 "joint1"
 
 $cbox 0 0 0 0 0 0
 
