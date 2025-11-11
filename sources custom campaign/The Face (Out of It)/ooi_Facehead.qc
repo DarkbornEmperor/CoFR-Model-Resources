@@ -42,7 +42,6 @@ $sequence "idle" {
 
 $sequence "hide" {
 	"ooi_Facehead_anims\hide"
-	ACT_IDLE 2
 	fps 1
 	loop
 }
