@@ -71,7 +71,7 @@ $Sequence "eye_move" {
     delta
     blendwidth 3
     blendcenter aimcenter
-    blend "eye_move" -60 60
+    blend "eye_move" -90 90
 }
 
 $sequence "idle" {

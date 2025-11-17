@@ -73,7 +73,7 @@ $Sequence "aim_pitch" {
     delta
     blendwidth 3
     blendcenter aimcenter
-    blend "aim_pitch" -50 50
+    blend "aim_pitch" -90 90
 	autoplay
 }
 

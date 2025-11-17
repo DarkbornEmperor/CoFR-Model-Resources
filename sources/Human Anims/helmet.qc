@@ -1947,21 +1947,21 @@ $sequence "reload_saw" {
 $sequence "die_simple" {
 	"helmet_anims\die_simple"
 	ACT_DIESIMPLE 1
-	{ event 1100 9 "body" }
+	{ event 1100 9 "death" }
 	fps 22
 }
 
 $sequence "die_backwards1" {
 	"helmet_anims\die_backwards1"
 	ACT_DIEBACKWARD 2
-	{ event 1100 13 "body" }
+	{ event 1100 13 "death" }
 	fps 26
 }
 
 $sequence "die_backwards" {
 	"helmet_anims\die_backwards"
 	ACT_DIEBACKWARD 1
-	{ event 1100 15 "body" }
+	{ event 1100 15 "death" }
 	walkframe 300 LX LY
 	fps 30
 }
@@ -1969,21 +1969,21 @@ $sequence "die_backwards" {
 $sequence "die_forwards" {
 	"helmet_anims\die_forwards"
 	ACT_DIEFORWARD 1
-	{ event 1100 8 "body" }
+	{ event 1100 8 "death" }
 	fps 26
 }
 
 $sequence "headshot" {
 	"helmet_anims\headshot"
 	ACT_DIE_HEADSHOT 4
-	{ event 1100 22 "body" }
+	{ event 1100 22 "death" }
 	fps 24
 }
 
 $sequence "die_spin" {
 	"helmet_anims\die_spin"
 	ACT_DIE_HEADSHOT 1
-	{ event 1100 16 "body" }
+	{ event 1100 16 "death" }
 	walkframe 300 LX LY
 	fps 30
 }
@@ -1991,6 +1991,6 @@ $sequence "die_spin" {
 $sequence "gutshot" {
 	"helmet_anims\gutshot"
 	ACT_DIE_GUTSHOT 1
-	{ event 1100 22 "body" }
+	{ event 1100 22 "death" }
 	fps 26
 }

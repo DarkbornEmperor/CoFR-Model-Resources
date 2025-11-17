@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "booksimon_beta.mdl"
+$modelname "booksimon_beta_m16.mdl"
 
 $bodygroup "body"
 {
@@ -30,10 +30,10 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\cof\booksimon_beta\" "models\vj_cofr\cof\simonbeta\" "models\vj_cofr\cof\booksimon\"
 
-$attachment "muzzle_glock" "Bip01 R Hand" 1 3 9
-$attachment "muzzle_shotgun" "Bip01 R Hand" 3 8 30
-$attachment "muzzle_tmp" "Bip01 R Hand" 0.5 3 11
 $attachment "muzzle_m16" "Bip01 R Hand" 3.3 9 35 rotate 0 0 0
+$attachment "muzzle_tmp" "Bip01 R Hand" 0.5 3 11
+$attachment "muzzle_shotgun" "Bip01 R Hand" 3 8 30
+$attachment "muzzle_glock" "Bip01 R Hand" 1 3 9
 $attachment "flare" "Bip01 L Hand" 1 -4 3
 $attachment "eyes" "Bip01 Head" 0.00 -5.00 1.50 rotate 0 -90 0
 

@@ -65,10 +65,48 @@ $hbox 0 "l_wheelb" -1.12 -13.11 -13.18 0.98 12.93 12.86
 $hbox 0 "r_wheell" 0 -4.12 -4.12 3.6 4.03 4.03
 $hbox 0 "l_wheell" -3.81 -4.09 -4.09 0 4.06 4.06
 
+$Animation aimneutral "aimcenter.smd" frames 0 0
+$Animation aimleft "aimleft.smd" subtract "aimneutral" 0 frames 0 0
+$Animation aimcenter "aimcenter.smd" subtract "aimneutral" 0 frames 0 0
+$Animation aimright "aimright.smd" subtract "aimneutral" 0 frames 0 0
+$Animation aimup "aimup.smd" subtract "aimneutral" 0 frames 0 0
+$Animation aimdown "aimdown.smd" subtract "aimneutral" 0 frames 0 0
+$Animation hand "hand.smd" subtract "aimneutral" 0 frames 0 0
+
 $sequence "ref" {
 	"simon1"
 	ACT_INVALID 1
 	loop
+}
+
+$Sequence "aim_yaw" {
+    "aimright"
+    "aimcenter"
+    "aimleft"
+    delta
+    blendwidth 3
+    blendcenter aimcenter
+    blend "aim_yaw" -90 90
+	autoplay
+}
+$Sequence "aim_pitch" {
+    "aimup"
+    "aimcenter"
+    "aimdown"
+    delta
+    blendwidth 3
+    blendcenter aimcenter
+    blend "aim_pitch" -90 90
+	autoplay
+}
+$Sequence "hand_pitch" {
+    "hand"
+    "aimcenter"
+    delta
+    blendwidth 2
+    blendcenter aimcenter
+    blend "aim_pitch" -90 0
+	autoplay
 }
 
 $sequence "idle" {

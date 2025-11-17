@@ -1,14 +1,15 @@
 // Created by Crowbar 0.74
 
-$modelname "booksimon_m_beta.mdl"
+$modelname "booksimon_mh_beta.mdl"
 
 $model "body" "booksimon_m_ref_beta"
+$model "body" "sledgehammer"
 
 $surfaceprop "flesh"
 
 $contents "solid"
 
-$cdmaterials "models\vj_cofr\cof\booksimon_beta\" "models\vj_cofr\cof\simonbeta\"
+$cdmaterials "models\vj_cofr\cof\booksimon_beta\" "models\vj_cofr\cof\simonbeta\" "models\vj_cofr\cof\booksimon\"
 
 $attachment "eyes" "Bip01 Head" 0.00 -5.00 1.50 rotate 0 -90 0
 
@@ -46,6 +47,11 @@ $hbox 4 "Bip01 L Finger1" -0.62 -1.68 0 1.08 2.12 1.438816
 $hbox 4 "Bip01 L Finger11" -0.43 -1.68 0 1.05 2.08 1.56
 $hbox 4 "Bip01 L Finger12" -0.47 -1.69 -0.21 0.72 1.91 1.69
 $hbox 1 "Bip01 Head" -3.85 -6.73 -1.79 3.84 4.04 10.35
+$hbox 4 "hammer_mesh" -0.98 -14.75 -3.19 0.98 6.33 3.14
+
+$Animation aimneutral "aimcenter.smd" frames 0 0
+$Animation aimcenter "aimcenter.smd" subtract "aimneutral" 0 frames 0 0
+$Animation feetfix "feet_fix.smd" subtract "aimneutral" 0 frames 0 0
 
 $sequence "ref" {
 	"booksimon_m_ref_beta"
@@ -53,11 +59,18 @@ $sequence "ref" {
 	loop
 }
 
+$Sequence "feet_fix" {
+    "feetfix"
+    delta
+    blendcenter aimcenter
+}
+
 $sequence "idle" {
 	"booksimon_m_anims\idle"
 	ACT_IDLE 1
 	fps 30
 	loop
+	addlayer "feet_fix"
 }
 $sequence "run" {
 	"booksimon_m_anims\run"
@@ -73,24 +86,28 @@ $sequence "run" {
 	fps 60
 	loop
 	LX
+	addlayer "feet_fix"
 }
 $sequence "attack_1" {
 	"booksimon_m_anims\attack_1"
 	ACT_MELEE_ATTACK1 2
 	{ event 1100 13 "melee" }
 	fps 30
+	addlayer "feet_fix"
 }
 $sequence "attack_2" {
 	"booksimon_m_anims\attack_2"
 	ACT_MELEE_ATTACK1 2
 	{ event 1100 13 "melee" }
 	fps 40
+	addlayer "feet_fix"
 }
 $sequence "attack_3" {
 	"booksimon_m_anims\attack_3"
 	ACT_MELEE_ATTACK1 2
 	{ event 1100 13 "melee" }
 	fps 50
+	addlayer "feet_fix"
 }
 $sequence "die" {
 	"booksimon_m_anims\die"
@@ -98,4 +115,5 @@ $sequence "die" {
 	{ event 1100 78 "death_hammer" }
 	{ event 1100 117 "death" }
 	fps 30
+	addlayer "feet_fix"
 }

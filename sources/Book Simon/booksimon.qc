@@ -35,7 +35,7 @@ $attachment "muzzle_shotgun" "Bip01 R Hand" 3 8 30
 $attachment "muzzle_tmp" "Bip01 R Hand" 0.5 3 11
 $attachment "muzzle_m16" "Bip01 R Hand" 3.3 9 35 rotate 0 0 0
 $attachment "flare" "Bip01 L Hand" 1 -4 3
-$attachment "eyes" "Bip01 Head" 0.00 -5.00 1.50 rotate 0 -90 0
+$attachment "eyes" "Bip01 Head" 0.00 -5.00 3.50 rotate 0 -90 0
 
 $illumposition 0 0 0 "Bip01 Pelvis"
 
@@ -93,7 +93,7 @@ $Sequence "aim_pitch" {
     delta
     blendwidth 3
     blendcenter aimcenter
-    blend "aim_pitch" -30 30
+    blend "aim_pitch" -90 90
     autoplay
 }
 
@@ -104,7 +104,7 @@ $Sequence "aim_yaw" {
     delta
     blendwidth 3
     blendcenter aimcenter
-    blend "aim_yaw" -50 50
+    blend "aim_yaw" -90 90
     autoplay
 }
 
