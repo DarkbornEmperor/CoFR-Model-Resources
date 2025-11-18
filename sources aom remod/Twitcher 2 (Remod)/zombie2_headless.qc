@@ -25,6 +25,12 @@ $contents "solid"
 
 $cdmaterials "models\vj_cofr\aomr\twitcher\twitcher2\"
 
+$texturegroup "skinfamilies"
+{
+	{ "LP_zomgotlol.bmp" }
+	{ "LP_zomgotlol_noalpha.bmp" }
+}
+
 $eyeposition 0 0 55
 
 $attachment "eyes" "Bip01 Head" 5.00 2.00 0.50 rotate -0 75 90

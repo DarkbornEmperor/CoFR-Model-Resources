@@ -103,7 +103,7 @@ $sequence "attack2" {
 $sequence "attack3" {
 	"tenslower_anims\attack3"
 	ACT_MELEE_ATTACK1 1
-	{ event 1100 13 'melee" }
+	{ event 1100 13 "melee" }
 	{ event 1100 24 "melee" }
 	fps 52
 }
