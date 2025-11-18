@@ -143,6 +143,7 @@ $sequence "die_crumple" {
 }
 $sequence "walk_limp" {
 	"hellhound_anims\walk_limp"
+	ACT_WALK_HURT 1
 	{ event 1100 1 "step" }
 	{ event 1100 10 "step" }
 	{ event 1100 11 "step" }
