@@ -2,7 +2,7 @@
 
 $modelname "wheelchair_twitcher.mdl"
 
-$model "body" "test2"
+$model "body" "bodybag_monster"
 
 $surfaceprop "flesh"
 
