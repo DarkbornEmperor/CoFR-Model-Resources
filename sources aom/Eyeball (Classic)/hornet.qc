@@ -5,7 +5,7 @@ $modelname "eyeball.mdl"
 
 $model "studio" "HG_BULLET_Template_Pose1"
 
-$surfaceprop "weapon"
+$surfaceprop "flesh"
 
 $contents "solid"
 

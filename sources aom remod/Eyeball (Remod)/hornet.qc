@@ -4,7 +4,7 @@ $modelname "eyeball.mdl"
 
 $model "studio" "HG_BULLET_Template_Pose1"
 
-$surfaceprop "weapon"
+$surfaceprop "flesh"
 
 $contents "solid"
 
@@ -22,4 +22,13 @@ $sequence "idle" {
 	"hornet_anims\idle"
 	fps 30
 	loop
+}
+
+$collisionmodel "HG_BULLET_Template_Pose1_phy"
+{
+	$mass 1
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone ""
 }

@@ -5,7 +5,7 @@ $modelname "eyeball.mdl"
 
 $model "studio" "lolboll"
 
-$surfaceprop "weapon"
+$surfaceprop "flesh"
 
 $contents "solid"
 
