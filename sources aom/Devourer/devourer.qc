@@ -84,6 +84,7 @@ $sequence "idle1" {
 	"devourer_anims\idle1"
 	ACT_IDLE 1
 	fps 5
+	loop
 }
 $sequence "idle2" {
 	"devourer_anims\idle2"
@@ -91,6 +92,7 @@ $sequence "idle2" {
 	{ event 1100 11 }
 	{ event 1100 27 }
 	fps 6
+	loop
 }
 $sequence "idle3" {
 	"devourer_anims\idle3"

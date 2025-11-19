@@ -12,7 +12,7 @@ $cdmaterials "models\vj_cofr\aom\twitcherwheelchair\"
 
 $eyeposition 0 0 55
 
-$attachment "mouth" "Bip01 Head" 0.50 -4.80 5.00 rotate -0 0 0
+$attachment "mouth" "Bip01 Head" 0.50 -4.80 5.00 rotate -0 -94 0
 $attachment "eyes" "Bip01 Head" 0.50 -4.00 7.00 rotate 0 -94 0
 
 $illumposition 0 0 0 "Bip01 Pelvis"
@@ -85,12 +85,7 @@ $sequence "attack2" {
 $sequence "walk" {
 	"wheelchair_new_anims\walk"
 	ACT_WALK 1
-	{ event 1100 2 "step" }
-	{ event 1100 12 "step" }
-	{ event 1100 22 "step" }
-	{ event 1100 29 "step" }
-	{ event 1100 29 "step" }
-	{ event 1100 29 "step" }
+	{ event 1100 5 "step" }
 	fps 14
 	loop
 	LX
