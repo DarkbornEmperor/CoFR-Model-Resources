@@ -1,21 +1,20 @@
 // Created by Crowbar 0.74
 
-$modelname "assistor_question.mdl"
+$modelname "assistor_two.mdl"
 
 $bodygroup "body"
 {
-	studio "question"
-	studio "question2"
+	studio "two"
+	studio "two2"
 }
 
 $surfaceprop "flesh"
 
 $contents "solid"
 
-$cdmaterials "models\vj_cofr\aom\player_da\question\"
+$cdmaterials "models\vj_cofr\aom\player_da\two\"
 
 $attachment "eyes" "Bip01 Neck" 4.00 0.00 0.00 rotate -0 65 90
-$attachment "flashlight" "Bip01 Spine2" 7.50 6.00 3.50 rotate 0 90 90
 
 $texturegroup "skinfamilies"
 {
@@ -48,7 +47,7 @@ $hbox 5 "Bip01 R Arm2" 0.44 -1.97 -2.34 10.59 2.72 2.22
 $hbox 5 "Bip01 R Hand" 0 -1 -2 3 1.5 3.5
 
 $sequence "ref" {
-	"question"
+	"two"
 	ACT_INVALID 1
 	loop
 }

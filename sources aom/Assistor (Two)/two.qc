@@ -15,6 +15,7 @@ $contents "solid"
 $cdmaterials "models\vj_cofr\aom\player_da\two\"
 
 $attachment "eyes" "Bip01 Neck" 4.00 0.00 0.00 rotate -0 65 90
+$attachment "flashlight" "Bip01 Spine2" 7.50 6.00 3.50 rotate 0 90 90
 
 $texturegroup "skinfamilies"
 {

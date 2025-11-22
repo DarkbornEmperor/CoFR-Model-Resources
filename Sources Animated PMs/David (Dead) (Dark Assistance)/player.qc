@@ -1,27 +1,14 @@
 // Created by Crowbar 0.74
 
-$modelname "assistor_question.mdl"
+$modelname "david_dead.mdl"
 
-$bodygroup "body"
-{
-	studio "question"
-	studio "question2"
-}
+$model "Studio" "David_Ref"
 
 $surfaceprop "flesh"
 
 $contents "solid"
 
-$cdmaterials "models\vj_cofr\aom\player_da\question\"
-
-$attachment "eyes" "Bip01 Neck" 4.00 0.00 0.00 rotate -0 65 90
-$attachment "flashlight" "Bip01 Spine2" 7.50 6.00 3.50 rotate 0 90 90
-
-$texturegroup "skinfamilies"
-{
-	{ "black_beam.bmp"      }
-	{ "flashlight_beam.bmp" }
-}
+$cdmaterials "models\vj_cofr\aom\david\dead\da\"
 
 $cbox 0 0 0 0 0 0
 
@@ -37,7 +24,8 @@ $hbox 7 "Bip01 R Foot" -0.56 -2.34 -2.19 3.81 8 2.66
 $hbox 3 "Bip01 Spine1" -3.25 -5.5 -5.5 4.83 5.5 5.5
 $hbox 2 "Bip01 Spine2" -0.06 -5.53 -7.59 8 7 7.59
 $hbox 2 "Bip01 Spine3" -2.25 -6.81 -6.31 6.5 5.09 6.31
-$hbox 1 "Bip01 Neck" -4.9 -6.37 -6.72 11.09 4.14 7.06
+$hbox 2 "Bip01 Neck" -3.11 -1.5 -3 2.05 3.5 3
+$hbox 1 "Bip01 Head" 0.09 -3.66 -3 8.41 5.09 3
 $hbox 4 "Bip01 L Arm" 0.94 -2.88 -4.13 5.44 4.28 3.5
 $hbox 4 "Bip01 L Arm1" -2.16 -2.34 -2.56 11.56 3.41 2.38
 $hbox 4 "Bip01 L Arm2" 0.59 -1.81 -2.19 10.75 2.84 2.41
@@ -48,7 +36,7 @@ $hbox 5 "Bip01 R Arm2" 0.44 -1.97 -2.34 10.59 2.72 2.22
 $hbox 5 "Bip01 R Hand" 0 -1 -2 3 1.5 3.5
 
 $sequence "ref" {
-	"question"
+	"David_Ref"
 	ACT_INVALID 1
 	loop
 }
