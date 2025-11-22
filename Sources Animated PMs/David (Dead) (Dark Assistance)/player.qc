@@ -2,6 +2,7 @@
 
 $modelname "david_dead.mdl"
 
+$model "base" "pm_base"
 $model "Studio" "David_Ref"
 
 $surfaceprop "flesh"
@@ -9,6 +10,15 @@ $surfaceprop "flesh"
 $contents "solid"
 
 $cdmaterials "models\vj_cofr\aom\david\dead\da\"
+
+$attachment "anim_attachment_RH" "ValveBiped.Bip01_R_Hand" 4 -1 -1 rotate 0 0 180
+$attachment "anim_attachment_LH" "ValveBiped.Bip01_L_Hand" 3.5 -0.5 0 rotate 0 0 0
+$attachment "eyes" "ValveBiped.Bip01_Head1" 4.00 3.00 0.00 rotate 0 80 90
+$attachment "mouth" "ValveBiped.Bip01_Head1" 1.20 3.00 0.00 rotate 0 80 90
+$attachment "flashlight" "ValveBiped.Bip01_Spine2" 1.80 6.00 3.50 rotate 0 90 90
+$attachment "gmod_flashlight" "ValveBiped.Bip01_Spine2" 1.80 6.00 3.50 rotate 0 90 90
+
+$illumposition 0 0 0 "Bip01 Pelvis"
 
 $cbox 0 0 0 0 0 0
 
@@ -41,4 +51,95 @@ $sequence "ref" {
 	loop
 }
 
-$includemodel "vj_cofr/cof/shared_animations.mdl"
+$sequence "ragdoll" {
+	"David_Ref"
+	ACT_DIERAGDOLL 1
+}
+
+$includemodel "half_life_1/common/animations_player.mdl"
+
+$collisionjoints "phy"
+{
+	$mass 0
+	$inertia 10
+	$damping 0.01
+	$rotdamping 1.5
+	$rootbone " "
+
+
+	$jointconstrain "Bip01 L Leg" x limit -12 12 0
+	$jointconstrain "Bip01 L Leg" y limit -12 28 0
+	$jointconstrain "Bip01 L Leg" z limit -32 32 0
+
+	$jointrotdamping "Bip01 R Leg" 0
+	$jointconstrain "Bip01 R Leg" x limit -12 12 0
+	$jointconstrain "Bip01 R Leg" y limit -12 28 0
+	$jointconstrain "Bip01 R Leg" z limit -32 32 0
+
+	$jointconstrain "Bip01 L Leg1" x limit 0 0 0
+	$jointconstrain "Bip01 L Leg1" y limit 0 0 0
+	$jointconstrain "Bip01 L Leg1" z limit -84 0 0
+
+	$jointconstrain "Bip01 R Leg1" x limit 0 0 0
+	$jointconstrain "Bip01 R Leg1" y limit 0 0 0
+	$jointconstrain "Bip01 R Leg1" z limit -84 1 0
+
+	$jointconstrain "Bip01 L Foot" x limit 0 0 0
+	$jointconstrain "Bip01 L Foot" y limit -19 19 0
+	$jointconstrain "Bip01 L Foot" z limit -15 35 0
+
+	$jointconstrain "Bip01 Spine3" x limit -48 48 0
+	$jointconstrain "Bip01 Spine3" y limit -25 25 0
+	$jointconstrain "Bip01 Spine3" z limit -25 50 0
+
+	$jointconstrain "Bip01 R Arm1" x limit -39 39 0
+	$jointconstrain "Bip01 R Arm1" y limit -10 95 0
+	$jointconstrain "Bip01 R Arm1" z limit -93 23 0
+
+	$jointconstrain "Bip01 R Arm2" x limit 0 0 0
+	$jointconstrain "Bip01 R Arm2" y limit 0 0 0
+	$jointconstrain "Bip01 R Arm2" z limit -80 4 0
+
+	$jointconstrain "Bip01 R Hand" x limit -60 60 0
+	$jointconstrain "Bip01 R Hand" y limit 0 0 0
+	$jointconstrain "Bip01 R Hand" z limit -57 70 0
+
+	$jointconstrain "Bip01 L Arm1" x limit -30 30 0
+	$jointconstrain "Bip01 L Arm1" y limit -95 15 0
+	$jointconstrain "Bip01 L Arm1" z limit -86 26 0
+
+	$jointconstrain "Bip01 L Arm2" x limit 0 0 0
+	$jointconstrain "Bip01 L Arm2" y limit 0 0 0
+	$jointconstrain "Bip01 L Arm2" z limit -80 4 0
+
+	$jointconstrain "Bip01 L Hand" x limit -37 37 0
+	$jointconstrain "Bip01 L Hand" y limit 0 0 0
+	$jointconstrain "Bip01 L Hand" z limit -57 59 0
+
+	$jointconstrain "Bip01 Head" x limit -20 20 0
+	$jointconstrain "Bip01 Head" y limit -25 25 0
+	$jointconstrain "Bip01 Head" z limit -13 30 0
+
+	$jointconstrain "Bip01 R Foot" x limit 0 0 0
+	$jointconstrain "Bip01 R Foot" y limit -25 6 0
+	$jointconstrain "Bip01 R Foot" z limit -15 35 0
+}
+
+$collisiontext
+{
+	animatedfriction
+	{
+		"animfrictionmin" "1.000000"
+		"animfrictionmax" "400.000000"
+		"animfrictiontimein" "0.500000"
+		"animfrictiontimeout" "0.300000"
+		"animfrictiontimehold" "0.000000"
+	}
+	editparams
+	{
+		"rootname" "Bip01 Pelvis"
+		"totalmass" "90.000000"
+		"jointmerge" "Bip01 Pelvis, Bip01 Spine3"
+		"jointmerge" "Bip01 Pelvis, bip01 spine"
+	}
+}

@@ -16,6 +16,8 @@ $attachment "anim_attachment_RH" "ValveBiped.Bip01_R_Hand" 4 -1 -1 rotate 0 0 18
 $attachment "anim_attachment_LH" "ValveBiped.Bip01_L_Hand" 3.5 -0.5 0 rotate 0 0 0
 $attachment "eyes" "ValveBiped.Bip01_Head1" 4.00 3.00 0.00 rotate 0 80 90
 $attachment "mouth" "ValveBiped.Bip01_Head1" 1.20 3.00 0.00 rotate 0 80 90
+$attachment "flashlight" "ValveBiped.Bip01_Spine2" 1.80 6.00 3.50 rotate 0 90 90
+$attachment "gmod_flashlight" "ValveBiped.Bip01_Spine2" 1.80 6.00 3.50 rotate 0 90 90
 
 $illumposition 0 0 0 "Bip01 Pelvis"
 
