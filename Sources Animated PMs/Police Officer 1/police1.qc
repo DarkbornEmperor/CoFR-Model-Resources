@@ -1,23 +1,27 @@
 // Created by Crowbar 0.74
 
-// Stored modelname (without quotes): "C:\Documents and Settings\Andreas\Desktop\playeranim\player.mdl"
-$modelname "david_dead.mdl"
+$modelname "police1.mdl"
 
 $model "base" "pm_base"
-$model "body" "a_simon_new"
+
+$bodygroup "body"
+{
+	studio "police1_ref"
+	studio "police1_ref2"
+}
 
 $surfaceprop "flesh"
 
 $contents "solid"
 
-$cdmaterials "models\vj_cofr\aomr\david\dead\" "models\vj_cofr\aomr\david\"
+$cdmaterials "models\vj_cofr\cof\police1\"
 
 $attachment "anim_attachment_RH" "ValveBiped.Bip01_R_Hand" 4 -1 -1 rotate 0 0 180
 $attachment "anim_attachment_LH" "ValveBiped.Bip01_L_Hand" 3.5 -0.5 0 rotate 0 0 0
 $attachment "eyes" "ValveBiped.Bip01_Head1" 4.00 3.00 0.00 rotate 0 80 90
 $attachment "mouth" "ValveBiped.Bip01_Head1" 1.20 3.00 0.00 rotate 0 80 90
-$attachment "flashlight" "ValveBiped.Bip01_Spine2" 1.80 6.00 3.50 rotate 0 90 90
-$attachment "gmod_flashlight" "ValveBiped.Bip01_Spine2" 1.80 6.00 3.50 rotate 0 90 90
+$attachment "flashlight" "ValveBiped.Bip01_Spine2" 0.70 6.50 4.20 rotate 0 90 90
+$attachment "gmod_flashlight" "ValveBiped.Bip01_Spine2" 0.70 6.50 4.20 rotate 0 90 90
 
 $illumposition 0 0 0 "Bip01 Pelvis"
 
@@ -47,13 +51,13 @@ $hbox 5 "Bip01 R Arm2" 0.44 -1.97 -2.34 10.59 2.72 2.22
 $hbox 5 "Bip01 R Hand" 0 -1 -2 3 1.5 3.5
 
 $sequence "ref" {
-	"a_simon_new"
+	"police1_ref"
 	ACT_INVALID 1
 	loop
 }
 
 $sequence "ragdoll" {
-	"a_simon_new"
+	"police1_ref"
 	ACT_DIERAGDOLL 1
 }
 

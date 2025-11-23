@@ -1,7 +1,7 @@
 // Created by Crowbar 0.74
 
 // Stored modelname (without quotes): "C:\Documents and Settings\Andreas\Desktop\playeranim\player.mdl"
-$modelname "david_dead.mdl"
+$modelname "david_addiction.mdl"
 
 $model "base" "pm_base"
 $model "body" "a_simon_new"
@@ -10,7 +10,7 @@ $surfaceprop "flesh"
 
 $contents "solid"
 
-$cdmaterials "models\vj_cofr\aomr\david\dead\" "models\vj_cofr\aomr\david\"
+$cdmaterials "models\vj_cofr\aomr\addiction\"
 
 $attachment "anim_attachment_RH" "ValveBiped.Bip01_R_Hand" 4 -1 -1 rotate 0 0 180
 $attachment "anim_attachment_LH" "ValveBiped.Bip01_L_Hand" 3.5 -0.5 0 rotate 0 0 0

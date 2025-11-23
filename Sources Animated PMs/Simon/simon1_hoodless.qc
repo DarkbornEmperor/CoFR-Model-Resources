@@ -1,16 +1,41 @@
 // Created by Crowbar 0.74
 
-// Stored modelname (without quotes): "C:\Documents and Settings\Andreas\Desktop\playeranim\player.mdl"
-$modelname "david_dead.mdl"
+// Stored modelname (without quotes): "Simon.mdl"
+$modelname "simon_hoodless.mdl"
 
 $model "base" "pm_base"
-$model "body" "a_simon_new"
+$model "body" "simon_body_hoodless"
+
+$bodygroup "bag"
+{
+	studio "bag"
+	blank
+}
 
 $surfaceprop "flesh"
 
 $contents "solid"
 
-$cdmaterials "models\vj_cofr\aomr\david\dead\" "models\vj_cofr\aomr\david\"
+$cdmaterials "models\vj_cofr\cof\simon\" "models\vj_cofr\cof\simon\aom\" "models\vj_cofr\cof\simon\aphextwin\" "models\vj_cofr\cof\simon\awesome\" "models\vj_cofr\cof\simon\blackmetal\" "models\vj_cofr\cof\simon\camo\" "models\vj_cofr\cof\simon\david\" "models\vj_cofr\cof\simon\gamebanana\" "models\vj_cofr\cof\simon\hellokitty\" "models\vj_cofr\cof\simon\hlc\" "models\vj_cofr\cof\simon\moddb\" "models\vj_cofr\cof\simon\psykskallar\" "models\vj_cofr\cof\simon\sick\" "models\vj_cofr\cof\simon\twitcher\" "models\vj_cofr\cof\simon\book\"
+
+$texturegroup "skinfamilies"
+{
+	{ "hoodie_grey"        "jeans"            "head_face" }
+	{ "hoodie_aom"         "jeans_aom"        "head_face" }
+	{ "hoodie_aphextwin"   "jeans"            "head_face" }
+	{ "hoodie_awesome"     "jeans_awesome"    "head_face" }
+	{ "hoodie_blackmetal"  "jeans_blackmetal" "head_face_blackmetal" }
+	{ "hoodie_camo"        "jeans"            "head_face" }
+	{ "hoodie_david"       "jeans_david"      "head_face" }
+	{ "hoodie_gamebanana"  "jeans_gamebanana" "head_face" }
+	{ "hoodie_hellokitty"  "jeans_hellokitty" "head_face" }
+	{ "hoodie_hlc"         "jeans"            "head_face" }
+	{ "hoodie_moddb"       "jeans"            "head_face" }
+	{ "hoodie_psykskallar" "jeans"            "head_face" }
+	{ "hoodie_sick"        "jeans_sick"       "head_face_sick" }
+	{ "hoodie_twitcher"    "jeans_twitcher"   "head_face_twitcher" }
+	{ "hoodie_grey_book"   "jeans"            "head_face_book" }
+}
 
 $attachment "anim_attachment_RH" "ValveBiped.Bip01_R_Hand" 4 -1 -1 rotate 0 0 180
 $attachment "anim_attachment_LH" "ValveBiped.Bip01_L_Hand" 3.5 -0.5 0 rotate 0 0 0
@@ -47,13 +72,13 @@ $hbox 5 "Bip01 R Arm2" 0.44 -1.97 -2.34 10.59 2.72 2.22
 $hbox 5 "Bip01 R Hand" 0 -1 -2 3 1.5 3.5
 
 $sequence "ref" {
-	"a_simon_new"
+	"simon_body_hoodless"
 	ACT_INVALID 1
 	loop
 }
 
 $sequence "ragdoll" {
-	"a_simon_new"
+	"simon_body_hoodless"
 	ACT_DIERAGDOLL 1
 }
 

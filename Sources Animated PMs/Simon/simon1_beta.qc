@@ -1,16 +1,22 @@
 // Created by Crowbar 0.74
 
-// Stored modelname (without quotes): "C:\Documents and Settings\Andreas\Desktop\playeranim\player.mdl"
-$modelname "david_dead.mdl"
+// Stored modelname (without quotes): "Simon.mdl"
+$modelname "simon_beta.mdl"
 
 $model "base" "pm_base"
-$model "body" "a_simon_new"
+$model "body" "simon_body_beta"
 
 $surfaceprop "flesh"
 
 $contents "solid"
 
-$cdmaterials "models\vj_cofr\aomr\david\dead\" "models\vj_cofr\aomr\david\"
+$cdmaterials "models\vj_cofr\cof\simonbeta\" "models\vj_cofr\cof\booksimon_beta\"
+
+$texturegroup "skinfamilies"
+{
+	{ "headT" }
+	{ "headT_book" }
+}
 
 $attachment "anim_attachment_RH" "ValveBiped.Bip01_R_Hand" 4 -1 -1 rotate 0 0 180
 $attachment "anim_attachment_LH" "ValveBiped.Bip01_L_Hand" 3.5 -0.5 0 rotate 0 0 0
@@ -47,13 +53,13 @@ $hbox 5 "Bip01 R Arm2" 0.44 -1.97 -2.34 10.59 2.72 2.22
 $hbox 5 "Bip01 R Hand" 0 -1 -2 3 1.5 3.5
 
 $sequence "ref" {
-	"a_simon_new"
+	"simon_body_beta"
 	ACT_INVALID 1
 	loop
 }
 
 $sequence "ragdoll" {
-	"a_simon_new"
+	"simon_body_beta"
 	ACT_DIERAGDOLL 1
 }
 

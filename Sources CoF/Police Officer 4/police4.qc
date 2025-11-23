@@ -12,7 +12,7 @@ $surfaceprop "flesh"
 
 $contents "solid"
 
-$cdmaterials "models\vj_cofr\cof\police3\"
+$cdmaterials "models\vj_cofr\cof\police4\"
 
 $attachment "flashlight" "Bip01 Spine3" 1.00 7.00 5.00 rotate 0 90 90
 

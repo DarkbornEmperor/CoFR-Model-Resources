@@ -2,6 +2,7 @@
 
 $modelname "david_addiction.mdl"
 
+$model "base" "pm_base"
 $model "Studio" "DavidAddiction_Ref"
 
 $surfaceprop "flesh"
