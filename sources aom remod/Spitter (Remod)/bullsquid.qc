@@ -84,6 +84,12 @@ $sequence "run" {
 	loop
 	LX
 }
+$sequence "suprisedhop" {
+	"bullsquid_anims\suprisedhop"
+	ACT_HOP 1
+	{ event 1100 11 "surprised" }
+	fps 42
+}
 $sequence "flinchs_1" {
 	"bullsquid_anims\flinchs_1"
 	ACT_SMALL_FLINCH 1
