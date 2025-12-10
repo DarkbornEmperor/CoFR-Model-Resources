@@ -43,6 +43,12 @@ $hbox 5 "Bip01 R Arm2" -1.38 -1.26 0 1.62 1.37 9.706635
 $hbox 5 "Bip01 R Hand" -1.32 -3.23 -1.73 2.04 0.83 3.45
 $hbox 1 "Bip01 Head" -3.15 -3.8 -4.68 2.87 4.85 10.1
 
+$sequence "ref" {
+	"faceless"
+	ACT_INVALID 1
+	loop
+}
+
 $sequence "idle" {
 	"Faceless_anims\idle"
 	ACT_IDLE 1
