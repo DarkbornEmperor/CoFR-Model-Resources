@@ -4,7 +4,7 @@ $modelname "w_syringe.mdl"
 
 $model "body" "w_syringe_syringe_low"
 
-$surfaceprop "weapon"
+$surfaceprop "item"
 
 $contents "solid"
 
