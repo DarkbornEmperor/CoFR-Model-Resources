@@ -31,9 +31,13 @@ $contents "solid"
 $cdmaterials "models\vj_cofr\cof\booksimon_beta\" "models\vj_cofr\cof\simonbeta\" "models\vj_cofr\cof\booksimon\"
 
 $attachment "muzzle_tmp" "Bip01 R Hand" 0.5 3 11
-$attachment "muzzle_shotgun" "Bip01 R Hand" 3 8 30
 $attachment "muzzle_glock" "Bip01 R Hand" 1 3 9
+$attachment "muzzle_shotgun" "Bip01 R Hand" 3 8 30
 $attachment "muzzle_m16" "Bip01 R Hand" 3.3 9 35 rotate 0 0 0
+$attachment "shell_glock" "Bip01 R Hand" 0.00 3.00 5.20 rotate 0 180 90
+$attachment "shell_shotgun" "Bip01 R Hand" -0.00 3.50 9.40 rotate 0 -180 90
+$attachment "shell_tmp" "Bip01 R Hand" -0.85 3.30 2.70 rotate 0 180 90
+$attachment "shell_m16" "Bip01 R Hand" -0.50 4.50 7.50 rotate -0 -180 90
 $attachment "flare" "Bip01 L Hand" 1 -4 3
 $attachment "eyes" "Bip01 Head" 0.00 -5.00 1.50 rotate 0 -90 0
 
