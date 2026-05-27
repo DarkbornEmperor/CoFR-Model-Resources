@@ -22,6 +22,7 @@ $cdmaterials "models\vj_cofr\cof\suicider\"
 $eyeposition 0 0 75
 
 $attachment "muzzle" "Bip01 R Hand" 8 0 3.5
+$attachment "shell" "Bip01 R Hand" 8 0 3.5
 $attachment "head" "Bip01 Neck" 0 0 0
 $attachment "eyes" "Bip01 Head" 3.50 3.00 -1.00 rotate 0 70 90
 

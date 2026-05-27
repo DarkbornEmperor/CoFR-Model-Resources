@@ -20,6 +20,7 @@ $cdmaterials "models\vj_cofr\cof\sicksimon_sui\"
 $eyeposition 0 0 55
 
 $attachment "muzzle" "Bip01 R Hand" -0.50 -4.20 9.80 rotate -0 -0 -0
+$attachment "shell" "Bip01 R Hand" 4.30 -0.80 3.20 rotate 0 -90 0
 $attachment "head" "Bip01 Neck" 0 0 0
 $attachment "eyes" "Bip01 Head" -0.10 4.00 5.00 rotate -20 90 0
 
