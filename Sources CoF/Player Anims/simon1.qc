@@ -50,6 +50,11 @@ $hbox 5 "Bip01 R Hand" 0 -1 -2 3 1.5 3.5
 
 $poseparameter "move_yaw" -180 180 wrap
 
+$Animation "walk_f" "simon1_anims\walk" loop LX LY rotateto 0
+$Animation "walk_b" "simon1_anims\walk_b" loop LX LY rotateto -180 reverse
+$Animation "walk_r" "simon1_anims\walk_r" loop LX LY rotateto -90
+$Animation "walk_l" "simon1_anims\walk_l" loop LX LY rotateto 90
+
 $sequence "pro" {
 	"simon1_anims\pro"
 	fps 30
